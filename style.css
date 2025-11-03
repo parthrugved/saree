@@ -1,0 +1,23 @@
+main section ul li summary {
+    justify-content: center;
+    align-items: center;
+    /* color: rgba(19, 23, 138, 0.573); */
+    display: flexbox;
+    color: gray;
+
+}
+
+main section ul li summary:hover {
+    font-size: 27px;
+    cursor: pointer;
+    color: rgba(5, 8, 90, 0.729);
+}
+
+    hr {
+        margin: 20px;
+        border: 2px;
+        color: rgba(5, 8, 90, 0.729);
+
+    }
+
+   
