@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Test - SareeKraft</title>
+</head>
+
+<body>
+  <main>
+    <h1 class="text-4xl text-center mt-10 font-semibold">Casual Wear (Test Page)</h1>
+    <section class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div id="product-container" class="flex flex-wrap -m-4"></div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    // ✅ Run this only after the whole page loads
+    window.onload = function() {
+      // 🧵 Product array with correct image paths (keep your folder name as "casual wear")
+      const sarees = [
+        {
+          img: "images/casual wear/c (1).png",
+          name: "The Catalyzer",
+          price: "₹1600",
+          category: "Cotton Sarees",
+          description: "Elegant cotton saree perfect for daily wear."
+        },
+        {
+          img: "images/casual wear/c (2).png",
+          name: "Shooting Stars",
+          price: "₹2100.15",
+          category: "Cotton Sarees",
+          description: "Soft and stylish saree for all-day comfort."
+        },
+        {
+          img: "images/casual wear/c (3).png",
+          name: "Nebula Dream",
+          price: "₹1899.00",
+          category: "Cotton Sarees",
+          description: "Classic design with a modern twist."
+        }
+      ];
+
+      // 🪄 Target container div
+      const container = document.getElementById("product-container");
+
+      // 🌀 Loop through sarees and add each as a card
+      sarees.forEach((item) => {
+        // 👇 encode spaces (%20) so browser can find "casual wear"
+        const encodedPath = encodeURI(item.img);
+
+        const card = `
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+            <a class="block relative h-150 rounded overflow-hidden">
+              <img alt="${item.name}" class="object-cover object-center w-full h-full block" src="${encodedPath}">
+            </a>
+            <div class="mt-4">
+              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">${item.category}</h3>
+              <h2 class="text-gray-900 title-font text-lg font-medium">${item.name}</h2>
+              <p class="text-gray-600 text-sm mb-1">${item.description}</p>
+              <p class="font-semibold">${item.price}</p>
+            </div>
+          </div>
+        `;
+        container.insertAdjacentHTML("beforeend", card);
+      });
+    };
+  </script>
+</body>
+</html>
