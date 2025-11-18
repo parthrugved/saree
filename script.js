@@ -49,14 +49,33 @@ const sarees = [
     category: "CATEGORY",
     description: "This is a saree"
   },
+  {
+    type: "designer sarees",
+    img: "d10001.png",
+    name: "Designer Elegance",
+    price: "₹3499.99",
+    category: "DESIGNER",
+    description: "Exquisite designer saree with intricate work"
+  },
+  {
+    type: "designer sarees",
+    img: "d10002.png",
+    name: "Designer Royal",
+    price: "₹3999.99",
+    category: "DESIGNER",
+    description: "Premium designer saree for special occasions"
+  }
+  
 ];
 
-// 🪄 Reference to container
-const container = document.getElementById("product-container");
+// 🪄 References to containers
+const primaryContainer = document.getElementById("product-container");
+const secondaryContainer = document.getElementById("product-container-secondary");
+const designerContainer = document.getElementById("product-container-designer");
 
-// 🌀 Loop to render items
-sarees.forEach((item) => {
-  const card = `
+// 🔧 Card builder
+function buildCardHtml(item) {
+  return `
     <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
       <a class="block relative h-150 rounded overflow-hidden">
         <img alt="${item.name}" class="object-cover object-center w-full h-full block" src="images/${item.type}/${item.img}">
@@ -69,5 +88,25 @@ sarees.forEach((item) => {
       </div>
     </div>
   `;
-  container.insertAdjacentHTML("beforeend", card);
-});
+}
+
+// 🌀 Render casual wear items into the primary container (Casual Wear)
+if (primaryContainer) {
+  sarees.filter((item) => item.type === "casual wear").forEach((item) => {
+    primaryContainer.insertAdjacentHTML("beforeend", buildCardHtml(item));
+  });
+}
+
+// ➕ Render all items into the secondary container (Normal Wear)
+if (secondaryContainer) {
+  sarees.forEach((item) => {
+    secondaryContainer.insertAdjacentHTML("beforeend", buildCardHtml(item));
+  });
+}
+
+// ✨ Render designer sarees into the designer container
+if (designerContainer) {
+  sarees.filter((item) => item.category === "DESIGNER").forEach((item) => {
+    designerContainer.insertAdjacentHTML("beforeend", buildCardHtml(item));
+  });
+}
