@@ -1,77 +1,25 @@
-// // 🧵 Product data map
 
-// const sarees = [
-//   {
-//     type: "causal wear",
-//     img: "c (4).png",
-//     name: "The Catalyzer",
-//     price: "₹16.00",
-//     category: "CATEGORY",
-//     description: "this is a saree"
-//   },
-//   {
-//     type: "causal wear",
-//     img: "images/casual/ci2.png",
-//     name: "Shooting Stars",
-//     price: "₹2100.15",
-//     category: "CATEGORY",
-//     description: "this is a saree"
-//   },
-//   {
-//     type: "causal wear",
-//     img: "c (6).png",
-//     name: "Nebula Dream",
-//     price: "₹1899.00",
-//     category: "CATEGORY",
-//     description: "this is a saree"
-//   },
-//   {
-//     type: "causal wear",
-//     img: "c (7).png",
-//     name: "Cosmic Charm",
-//     price: "₹2499.99",
-//     category: "CATEGORY",
-//     description: "this is a saree"
-
-//   },
-//   {
-//     type: "causal wear",
-//     img: "c (7).png",
-//     name: "Cosmic Charm",
-//     price: "₹2499.99",
-//     category: "CATEGORY",
-//     description: "this is a saree"
-//   },
-//   {
-//     type: "causal wear",
-//     img: "c (8).png",
-//     name: "Cosmic Charm",
-//     price: "₹2499.99",
-//     category: "CATEGORY",
-//     description: "this is a saree"
-//   },
-// ];
-
-// // 🪄 Reference to container
-// const container = document.getElementById("product-container");
-
-// // 🌀 Loop to render items
-// sarees.forEach((item) => {
-//   const card = `
-//         <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-//           <a class="block relative h-150 rounded overflow-hidden">
-//             <img alt="${item.name}" class="object-cover object-center w-full h-full block" src="images/${item.type}/${item.img}">
-//           </a>
-//           <div class="mt-4">
-//             <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">${item.category}</h3>
-//             <h2 class="text-gray-900 title-font text-lg font-medium">${item.name}</h2>
-//             <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">
-//                                                    ${item.description}  </h3>
-//             <p class="mt-1">${item.price}</p>
-//           </div>
-//         </div>
-//       `;
-//   container.insertAdjacentHTML("beforeend", card);
-// });
-
-
+  <header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <img style="cursor: pointer;" width="100px" src="logo.png" alt="">
+        
+      </a>
+      <nav
+        class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+        <a href="index.html" class="mr-5 hover:text-gray-900">Home</a>
+        <a href="shop.html" class="mr-5 hover:text-gray-900">Shop Now</a>
+        <a href="about.html" class="mr-5 hover:text-gray-900">About Us</a>
+        <a href="form.html" class="mr-5 hover:text-gray-900">Contact Us</a>
+         <a href="fee.html" class="mr-5 hover:text-gray-900">Customer Feedback</a>
+      </nav>
+      <button style="cursor: pointer;" onclick="window.location.href='shop.html';"
+        class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Shop
+        Now
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </button>
+    </div>
+  </header>

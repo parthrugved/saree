@@ -7,7 +7,8 @@ const sarees = [
     name: "The Catalyzer",
     price: "₹1600",
     category: "CATEGORY",
-    description: "This is a very good saree"
+    description: "This is a very good saree",
+    
   },
   {
     type: "casual wear",
@@ -456,6 +457,13 @@ const sarees = [
     description: "This is a saree"
   },
   //wedding sarees
+  {
+    type: "wedding sarees",
+    img: "wedding (1).jpg",
+    name: "starry mist",
+    category: "CATEGORY"
+  }
+
 ];
 
 // 🪄 Reference to container
