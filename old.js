@@ -464,7 +464,13 @@ const container = document.getElementById("product-container");
 // 🌀 Loop to render items
 sarees.forEach((item) => {
   const card = `
-    <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+    <div class="lg:w-1/4 md:w-1/2 p-4 w-full relative">
+  
+      ${item.stock === false ? `
+        <span class="absolute z-10 top-2 left-2 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded">
+          OUT OF STOCK
+        </span>
+      ` : ""}
       <a class="block relative h-150 rounded overflow-hidden">
         <img alt="${item.name}" class="object-cover object-center w-full h-full block" src="images/${item.type}/${item.img}">
       </a>
