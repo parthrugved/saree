@@ -459,11 +459,69 @@ const sarees = [
   //wedding sarees
   {
     type: "wedding sarees",
-    img: "wedding (1).jpg",
-    name: "starry mist",
-    category: "CATEGORY"
-  }
-
+    img: "wedding  (1).jpg",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  }, {
+    type: "wedding sarees",
+    img: "wedding  (2).png",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  },{
+    type: "wedding sarees",
+    img: "wedding  (3).png",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  },{
+    type: "wedding sarees",
+    img: "wedding  (4).png",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  },{
+    type: "wedding sarees",
+    img: "wedding  (5).png",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  },{
+    type: "wedding sarees",
+    img: "wedding  (6).png",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  },{
+    type: "wedding sarees",
+    img: "wedding  (7).png",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  },{
+    type: "wedding sarees",
+    img: "wedding  (8).png",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  },{
+    type: "wedding sarees",
+    img: "wedding  (9).png",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  },
+  
 ];
 
 // 🪄 Reference to container
