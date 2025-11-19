@@ -412,7 +412,50 @@ const sarees = [
     description: "This is a saree"
   },
   //net sarees
-
+  {
+    type: "net sarees",
+    img: "net (1).png",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  }, {
+    type: "net sarees",
+    img: "net (2).png",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  },{
+    type: "net sarees",
+    img: "net (3).png",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  },{
+    type: "net sarees",
+    img: "net (4).png",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  },{
+    type: "net sarees",
+    img: "net (5).png",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  },{
+    type: "net sarees",
+    img: "net (6).png",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  },
+  //wedding sarees
 ];
 
 // 🪄 Reference to container
