@@ -10,22 +10,53 @@
 </head>
 
 <body>
-    <header class="text-gray-600 body-font">
-        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-                <img style="cursor: pointer;" width="100px" src="logo.png" alt="">
-
-            </a>
-            <nav
-                class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
-                <a href="index.html" class="mr-5 hover:text-gray-900">Home</a>
-                <a href="shop.html" class="mr-5 hover:text-gray-900">Shop Now</a>
-                <a href="about.html" class="mr-5 hover:text-gray-900">About Us</a>
-                <a href="form.html" class="mr-5 hover:text-gray-900">Contact Us</a>
-                <a href="fee.html" class="mr-5 hover:text-gray-900">Customer Feedback</a>
-            </nav>
-
-    </header>
+    
+  <header class="text-gray-600 body-font">
+    <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+  
+      <!-- LOGO -->
+      <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <img style="cursor: pointer;" width="100px" src="logo.png" alt="">
+      </a>
+  
+      <!-- DESKTOP NAV (unchanged) -->
+      <nav
+        class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 
+        flex flex-wrap items-center text-base justify-center hidden md:flex">
+  
+        <a href="index.html" class="mr-5 hover:text-gray-900">Home</a>
+        <a href="shop.html" class="mr-5 hover:text-gray-900">Shop Now</a>
+        <a href="about.html" class="mr-5 hover:text-gray-900">About Us</a>
+        <a href="form.html" class="mr-5 hover:text-gray-900">Contact Us</a>
+        <a href="fee.html" class="mr-5 hover:text-gray-900">Customer Feedback</a>
+  
+      </nav>
+  
+      <!-- MOBILE RIGHT SIDE (only Shop + Hamburger) -->
+      <div class="flex md:hidden items-center space-x-4">
+  
+        <a href="shop.html" class="mr-2 text-blue-600 font-semibold">Shop Now</a>
+  
+        <!-- Hamburger -->
+        <button id="menuBtn" class="text-3xl focus:outline-none">
+          ☰
+        </button>
+  
+      </div>
+  
+    </div>
+  
+    <!-- MOBILE MENU DROPDOWN -->
+    <div id="mobileMenu" class="hidden flex flex-col bg-white px-5 pb-4 md:hidden">
+  
+      <a href="index.html" class="py-2 hover:text-gray-900">Home</a>
+      <a href="about.html" class="py-2 hover:text-gray-900">About Us</a>
+      <a href="form.html" class="py-2 hover:text-gray-900">Contact Us</a>
+      <a href="fee.html" class="py-2 hover:text-gray-900">Customer Feedback</a>
+  
+    </div>
+  
+  </header>
 
     <main>
         <section>
@@ -1057,6 +1088,14 @@
             </ul>
         </section>
     </main>
+    <script>
+        const menuBtn = document.getElementById("menuBtn");
+        const mobileMenu = document.getElementById("mobileMenu");
+      
+        menuBtn.addEventListener("click", () => {
+          mobileMenu.classList.toggle("hidden");
+        });
+      </script>
 </body>
 
 </html>
