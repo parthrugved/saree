@@ -251,7 +251,131 @@ const sarees = [
     price: "₹1299",
     category: "CATEGORY",
     description: "This is a saree"
-  },  
+  }, 
+  //desiginer sarees 
+  {
+    type: "designer sarees",
+    img: "d10001.png",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  },
+  {
+    type: "designer sarees",
+    img: "d10002.png",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  }, {
+    type: "designer sarees",
+    img: "d10003.png",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  }, {
+    type: "designer sarees",
+    img: "d10004.png",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  },  {
+    type: "designer sarees",
+    img: "d10005.png",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  },  {
+    type: "designer sarees",
+    img: "d10006.png",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  },  {
+    type: "designer sarees",
+    img: "d10007.png",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  }, {
+    type: "designer sarees",
+    img: "d10008.png",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  },  {
+    type: "designer sarees",
+    img: "d10009.png",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  },  {
+    type: "designer sarees",
+    img: "d10010.png",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  },   {
+    type: "designer sarees",
+    img: "d10011.png",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  },   {
+    type: "designer sarees",
+    img: "d10012.png",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  },  {
+    type: "designer sarees",
+    img: "d10013.png",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  },   {
+    type: "designer sarees",
+    img: "d10014.png",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  },   {
+    type: "designer sarees",
+    img: "d10015.png",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  },  {
+    type: "designer sarees",
+    img: "d10016.png",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  },   {
+    type: "designer sarees",
+    img: "d10017.png",
+    name: "Starry Mist",
+    price: "₹1499",
+    category: "CATEGORY",
+    description: "This is a saree"
+  },
+
+
 ];
 
 // 🪄 Reference to container
