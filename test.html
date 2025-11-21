@@ -1,75 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <title>Test - SareeKraft</title>
+  <title>Navbar</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    /* Slide from right animation */
+    @keyframes slideRight {
+      from { transform: translateX(100%); }
+      to { transform: translateX(0); }
+    }
+
+    @keyframes slideClose {
+      from { transform: translateX(0); }
+      to { transform: translateX(100%); }
+    }
+
+    .menu-open {
+      animation: slideRight 0.3s ease forwards;
+    }
+
+    .menu-close {
+      animation: slideClose 0.3s ease forwards;
+    }
+  </style>
 </head>
 
-<body>
-  <main>
-    <h1 class="text-4xl text-center mt-10 font-semibold">Casual Wear (Test Page)</h1>
-    <section class="text-gray-600 body-font">
-      <div class="container px-5 py-24 mx-auto">
-        <div id="product-container" class="flex flex-wrap -m-4"></div>
+<body class="bg-gray-100">
+
+  <!-- NAVBAR -->
+  <header class="text-gray-600 body-font">
+    <div class="container mx-auto flex p-5 items-center justify-between relative">
+
+      <!-- LOGO (Left) -->
+      <a class="flex title-font font-medium items-center text-gray-900">
+        <img style="cursor: pointer;" width="100px" src="logo.png" alt="">
+      </a>
+
+      <!-- DESKTOP NAV (UNCHANGED) -->
+      <nav
+        class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400 
+        flex-wrap items-center text-base justify-center hidden md:flex">
+
+        <a href="index.html" class="mr-5 hover:text-gray-900">Home</a>
+        <a href="shop.html" class="mr-5 hover:text-gray-900">Shop Now</a>
+        <a href="about.html" class="mr-5 hover:text-gray-900">About Us</a>
+        <a href="form.html" class="mr-5 hover:text-gray-900">Contact Us</a>
+        <a href="fee.html" class="mr-5 hover:text-gray-900">Customer Feedback</a>
+      </nav>
+
+      <!-- MOBILE NAV -->
+      <div class="md:hidden flex items-center w-full justify-end">
+
+        <!-- CENTERED "SHOP NOW" -->
+        <a href="shop.html"
+          class="text-blue-600 font-semibold absolute left-1/2 transform -translate-x-1/2">
+          Shop Now
+        </a>
+
+        <!-- HAMBURGER (Right) -->
+        <button id="menuBtn" class="text-3xl ml-4">
+          ☰
+        </button>
+
       </div>
-    </section>
-  </main>
 
+    </div>
+
+
+    <!-- RIGHT SIDE SLIDE MENU -->
+    <div id="mobileMenu"
+      class="fixed top-0 right-0 h-full w-64 bg-white shadow-xl pt-20 px-6 
+             transform translate-x-full md:hidden">
+
+      <!-- CLOSE BUTTON -->
+      <button id="closeBtn" class="absolute top-5 right-5 text-3xl">
+        ×
+      </button>
+
+      <a href="index.html" class="block py-3 text-lg">Home</a>
+      <a href="about.html" class="block py-3 text-lg">About Us</a>
+      <a href="form.html" class="block py-3 text-lg">Contact Us</a>
+      <a href="fee.html" class="block py-3 text-lg">Customer Feedback</a>
+
+    </div>
+
+  </header>
+
+
+  <!-- JAVASCRIPT -->
   <script>
-    // ✅ Run this only after the whole page loads
-    window.onload = function() {
-      // 🧵 Product array with correct image paths (keep your folder name as "casual wear")
-      const sarees = [
-        {
-          img: "images/casual wear/c (1).png",
-          name: "The Catalyzer",
-          price: "₹1600",
-          category: "Cotton Sarees",
-          description: "Elegant cotton saree perfect for daily wear."
-        },
-        {
-          img: "images/casual wear/c (2).png",
-          name: "Shooting Stars",
-          price: "₹2100.15",
-          category: "Cotton Sarees",
-          description: "Soft and stylish saree for all-day comfort."
-        },
-        {
-          img: "images/casual wear/c (3).png",
-          name: "Nebula Dream",
-          price: "₹1899.00",
-          category: "Cotton Sarees",
-          description: "Classic design with a modern twist."
-        }
-      ];
+    const menu = document.getElementById("mobileMenu");
+    const openBtn = document.getElementById("menuBtn");
+    const closeBtn = document.getElementById("closeBtn");
 
-      // 🪄 Target container div
-      const container = document.getElementById("product-container");
+    let open = false;
 
-      // 🌀 Loop through sarees and add each as a card
-      sarees.forEach((item) => {
-        // 👇 encode spaces (%20) so browser can find "casual wear"
-        const encodedPath = encodeURI(item.img);
+    openBtn.addEventListener("click", () => {
+      if (!open) {
+        menu.classList.remove("menu-close");
+        menu.classList.add("menu-open");
+      }
+      open = true;
+    });
 
-        const card = `
-          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-            <a class="block relative h-150 rounded overflow-hidden">
-              <img alt="${item.name}" class="object-cover object-center w-full h-full block" src="${encodedPath}">
-            </a>
-            <div class="mt-4">
-              <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">${item.category}</h3>
-              <h2 class="text-gray-900 title-font text-lg font-medium">${item.name}</h2>
-              <p class="text-gray-600 text-sm mb-1">${item.description}</p>
-              <p class="font-semibold">${item.price}</p>
-            </div>
-          </div>
-        `;
-        container.insertAdjacentHTML("beforeend", card);
-      });
-    };
+    closeBtn.addEventListener("click", () => {
+      if (open) {
+        menu.classList.remove("menu-open");
+        menu.classList.add("menu-close");
+      }
+      open = false;
+    });
   </script>
+
 </body>
 </html>
