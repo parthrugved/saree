@@ -2,128 +2,49 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
-     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="icon" type="image/png" href="logo.png">
-    <link rel="stylesheet" href="style.css">
-    <title>Shop | SareeKraft</title>
-    <style>
-       /* Slide from right animation */
-    @keyframes slideRight {
-      from { transform: translateX(100%); }
-      to { transform: translateX(0); }
-    }
-
-    @keyframes slideClose {
-      from { transform: translateX(0); }
-      to { transform: translateX(100%); }
-    }
-
-    .menu-open {
-      animation: slideRight 0.3s ease forwards;
-    }
-
-    .menu-close {
-      animation: slideClose 0.3s ease forwards;
-    }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/png" href="logo.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Shop | SareeKraft</title>
 </head>
 
 <body>
-  <!-- NAVBAR -->    <header class="text-gray-600 body-font">
-        <div class="container mx-auto flex p-5 items-center justify-between relative">
+  <div id="navbar"></div>
 
-          <!-- LOGO (Left) -->
-          <a class="flex title-font font-medium items-center text-gray-900">
-              <img style="cursor: pointer;" width="100px" src="logo.png" alt="">
-          </a>
+<script>
+fetch("nav.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("navbar").innerHTML = data;
 
-          <!-- DESKTOP NAV -->
-          <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l 
-              md:border-gray-400 flex-wrap items-center text-base justify-center hidden md:flex">
+    // Re-run scripts inside nav.html
+    const scripts = document.querySelectorAll("#navbar script");
+    scripts.forEach(script => {
+      const newScript = document.createElement("script");
+      newScript.textContent = script.textContent;
+      document.body.appendChild(newScript);
+    });
+  });
+</script>
 
-              <a href="index.html" class="mr-5 hover:text-gray-900">Home</a>
-              <a href="shop.html" class="mr-5 hover:text-gray-900">Shop Now</a>
-              <a href="about.html" class="mr-5 hover:text-gray-900">About Us</a>
-              <a href="form.html" class="mr-5 hover:text-gray-900">Contact Us</a>
-              <a href="fee.html" class="mr-5 hover:text-gray-900">Customer Feedback</a>
-          </nav>
 
-          <!-- MOBILE NAV -->
-          <div class="md:hidden flex items-center w-full justify-end">
+  <main>
 
-              <!-- CENTERED "SHOP NOW" -->
-              <a href="shop.html"
-                  class="text-blue-600 font-semibold absolute left-1/2 transform -translate-x-1/2">
-                  Shop Now
-              </a>
-
-              <!-- HAMBURGER (Right) -->
-              <button id="menuBtn" class="text-3xl ml-4">
-                  ☰
-              </button>
-
-          </div>
-
+    <section class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div id="product-container" class="flex flex-wrap -m-4">
+          <!-- JS will inject product cards here -->
+        </div>
       </div>
 
-      <!-- RIGHT SLIDE MENU -->
-      <div id="mobileMenu"
-          class="fixed top-0 right-0 h-full w-64 bg-white shadow-xl pt-20 px-6 
-                 transform translate-x-full md:hidden z-50">
+    </section>
 
-          <!-- CLOSE BUTTON -->
-          <button id="closeBtn" class="absolute top-5 right-5 text-3xl">
-              ×
-          </button>
-
-          <a href="index.html" class="block py-3 text-lg">Home</a>
-          <a href="about.html" class="block py-3 text-lg">About Us</a>
-          <a href="form.html" class="block py-3 text-lg">Contact Us</a>
-          <a href="fee.html" class="block py-3 text-lg">Customer Feedback</a>
-
-      </div>
-
-  </header>
-      
-    <main>
-        
-        <section class="text-gray-600 body-font">
-            <div class="container px-5 py-24 mx-auto">
-                <div id="product-container" class="flex flex-wrap -m-4">
-                    <!-- JS will inject product cards here -->
-                </div>
-            </div>
-        
-        </section>
+  </main>
+  <script src="old.js"></script>
   
-    </main> 
-    <script src="old.js"></script>
-    <script>
-      const menu = document.getElementById("mobileMenu");
-      const openBtn = document.getElementById("menuBtn");
-      const closeBtn = document.getElementById("closeBtn");
-  
-      let open = false;
-  
-      openBtn.addEventListener("click", () => {
-        if (!open) {
-          menu.classList.remove("menu-close");
-          menu.classList.add("menu-open");
-        }
-        open = true;
-      });
-  
-      closeBtn.addEventListener("click", () => {
-        if (open) {
-          menu.classList.remove("menu-open");
-          menu.classList.add("menu-close");
-        }
-        open = false;
-      });
-    </script>
 </body>
 
 </html>
