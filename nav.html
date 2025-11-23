@@ -1,0 +1,91 @@
+<!-- NAVBAR COMPONENT ONLY (NO HTML/BODY/TITLE) -->
+
+<style>
+    @keyframes slideRight {
+        from { transform: translateX(100%); }
+        to   { transform: translateX(0); }
+    }
+
+    @keyframes slideClose {
+        from { transform: translateX(0); }
+        to   { transform: translateX(100%); }
+    }
+
+    .menu-open { animation: slideRight 0.3s ease forwards; }
+    .menu-close { animation: slideClose 0.3s ease forwards; }
+</style>
+
+<header class="text-gray-600 body-font">
+    <div class="container mx-auto flex p-5 items-center justify-between relative">
+
+        <!-- LOGO -->
+        <a class="flex title-font font-medium items-center text-gray-900">
+            <img style="cursor: pointer;" width="100px" src="logo.png" alt="">
+        </a>
+
+        <!-- DESKTOP NAV -->
+        <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l 
+              md:border-gray-400 flex-wrap items-center text-base justify-center hidden md:flex">
+
+            <a href="index.html" class="mr-5 hover:text-gray-900">Home</a>
+            <a href="shop.html" class="mr-5 hover:text-gray-900">Shop Now</a>
+            <a href="about.html" class="mr-5 hover:text-gray-900">About Us</a>
+            <a href="form.html" class="mr-5 hover:text-gray-900">Contact Us</a>
+            <a href="fee.html" class="mr-5 hover:text-gray-900">Customer Feedback</a>
+        </nav>
+
+        <!-- MOBILE NAV -->
+        <div class="md:hidden flex items-center w-full justify-end">
+
+            <a href="shop.html"
+               class="text-blue-600 font-semibold absolute left-1/2 transform -translate-x-1/2">
+                Shop Now
+            </a>
+
+            <button id="menuBtn" class="text-3xl ml-4">
+                ☰
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- SLIDE MENU -->
+    <div id="mobileMenu"
+         class="fixed top-0 right-0 h-full w-64 bg-white shadow-xl pt-20 px-6 
+                transform translate-x-full md:hidden z-50">
+
+        <button id="closeBtn" class="absolute top-5 right-5 text-3xl">×</button>
+
+        <a href="index.html" class="block py-3 text-lg">Home</a>
+        <a href="about.html" class="block py-3 text-lg">About Us</a>
+        <a href="form.html" class="block py-3 text-lg">Contact Us</a>
+        <a href="fee.html" class="block py-3 text-lg">Customer Feedback</a>
+
+    </div>
+</header>
+
+<script>
+function navInit() {
+    const menu = document.getElementById("mobileMenu");
+    const openBtn = document.getElementById("menuBtn");
+    const closeBtn = document.getElementById("closeBtn");
+
+    if (!menu || !openBtn || !closeBtn) return;
+
+    let open = false;
+
+    openBtn.addEventListener("click", () => {
+        menu.classList.remove("menu-close");
+        menu.classList.add("menu-open");
+        open = true;
+    });
+
+    closeBtn.addEventListener("click", () => {
+        menu.classList.remove("menu-open");
+        menu.classList.add("menu-close");
+        open = false;
+    });
+}
+navInit();
+</script>
