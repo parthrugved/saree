@@ -550,7 +550,7 @@ sarees.forEach((item) => {
         <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">${item.description}</h3>
         <p class="mt-1">${item.price}</p>
 
-        <a href="https://wa.me/91808067XXXX?text=Hi%20I%20want%20to%20buy%20this%20saree"
+        <a href="https://wa.me/918080674236?text=Hi%20I%20want%20to%20buy%20this%20saree"
         target="_blank"
           class="bg-green-600 text-white px-4 py-2 rounded-lg block text-center mt-3">
           Buy Now
