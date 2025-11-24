@@ -24,7 +24,9 @@ const sarees = [
     name: "Nebula Dream",
     price: "₹1500",
     category: "CATEGORY",
-    description: "This is a saree"
+    description: "This is a saree",
+    stock: false
+  
   },
   {
     type: "casual wear",
@@ -32,7 +34,8 @@ const sarees = [
     name: "Cosmic Charm",
     price: "₹1500",
     category: "CATEGORY",
-    description: "This is a saree"
+    description: "This is a saree",
+    stock: false
   },
   {
     type: "casual wear",
@@ -107,7 +110,8 @@ const sarees = [
     name: "Starry Mist",
     price: "₹1599",
     category: "CATEGORY",
-    description: "This is a saree"
+    description: "This is a saree",
+    stock: false
   },
   // second 
   {
@@ -533,7 +537,7 @@ sarees.forEach((item) => {
     <div class="lg:w-1/4 md:w-1/2 p-4 w-full relative">
   
       ${item.stock === false ? `
-        <span class="absolute z-10 top-2 left-2 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded">
+        <span class="absolute z-10 top-2 left-2 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded hover:cursor-pointer">
           OUT OF STOCK
         </span>
       ` : ""}
