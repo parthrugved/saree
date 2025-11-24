@@ -8,7 +8,7 @@ const sarees = [
     price: "₹1600",
     category: "CATEGORY",
     description: "This is a very good saree",
-
+    
   },
   {
     type: "casual wear",
@@ -26,7 +26,7 @@ const sarees = [
     category: "CATEGORY",
     description: "This is a saree",
     stock: false
-
+  
   },
   {
     type: "casual wear",
@@ -387,28 +387,28 @@ const sarees = [
     price: "₹1499",
     category: "CATEGORY",
     description: "This is a saree"
-  }, {
+  },{
     type: "khan sarees",
     img: "khan (2).png",
     name: "Starry Mist",
     price: "₹1499",
     category: "CATEGORY",
     description: "This is a saree"
-  }, {
+  },{
     type: "khan sarees",
     img: "khan (3).png",
     name: "Starry Mist",
     price: "₹1499",
     category: "CATEGORY",
     description: "This is a saree"
-  }, {
+  },{
     type: "khan sarees",
     img: "khan (4).png",
     name: "Starry Mist",
     price: "₹1499",
     category: "CATEGORY",
     description: "This is a saree"
-  }, {
+  },{
     type: "khan sarees",
     img: "khan (5).png",
     name: "Starry Mist",
@@ -431,28 +431,28 @@ const sarees = [
     price: "₹1499",
     category: "CATEGORY",
     description: "This is a saree"
-  }, {
+  },{
     type: "net sarees",
     img: "net (3).png",
     name: "Starry Mist",
     price: "₹1499",
     category: "CATEGORY",
     description: "This is a saree"
-  }, {
+  },{
     type: "net sarees",
     img: "net (4).png",
     name: "Starry Mist",
     price: "₹1499",
     category: "CATEGORY",
     description: "This is a saree"
-  }, {
+  },{
     type: "net sarees",
     img: "net (5).png",
     name: "Starry Mist",
     price: "₹1499",
     category: "CATEGORY",
     description: "This is a saree"
-  }, {
+  },{
     type: "net sarees",
     img: "net (6).png",
     name: "Starry Mist",
@@ -475,49 +475,49 @@ const sarees = [
     price: "₹1499",
     category: "CATEGORY",
     description: "This is a saree"
-  }, {
+  },{
     type: "wedding sarees",
     img: "wedding  (3).png",
     name: "Starry Mist",
     price: "₹1499",
     category: "CATEGORY",
     description: "This is a saree"
-  }, {
+  },{
     type: "wedding sarees",
     img: "wedding  (4).png",
     name: "Starry Mist",
     price: "₹1499",
     category: "CATEGORY",
     description: "This is a saree"
-  }, {
+  },{
     type: "wedding sarees",
     img: "wedding  (5).png",
     name: "Starry Mist",
     price: "₹1499",
     category: "CATEGORY",
     description: "This is a saree"
-  }, {
+  },{
     type: "wedding sarees",
     img: "wedding  (6).png",
     name: "Starry Mist",
     price: "₹1499",
     category: "CATEGORY",
     description: "This is a saree"
-  }, {
+  },{
     type: "wedding sarees",
     img: "wedding  (7).png",
     name: "Starry Mist",
     price: "₹1499",
     category: "CATEGORY",
     description: "This is a saree"
-  }, {
+  },{
     type: "wedding sarees",
     img: "wedding  (8).png",
     name: "Starry Mist",
     price: "₹1499",
     category: "CATEGORY",
     description: "This is a saree"
-  }, {
+  },{
     type: "wedding sarees",
     img: "wedding  (9).png",
     name: "Starry Mist",
@@ -525,7 +525,7 @@ const sarees = [
     category: "CATEGORY",
     description: "This is a saree"
   },
-
+  
 ];
 
 // 🪄 Reference to container
@@ -550,11 +550,11 @@ sarees.forEach((item) => {
         <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">${item.description}</h3>
         <p class="mt-1">${item.price}</p>
 
-        <a href="https://wa.me/8080674236?text=Hi%20I%20want%20to%20buy%20this%20saree"
-          target="_blank"
-        class="bg-green-600 text-white px-4 py-2 rounded-lg block text-center mt-3">
-        Buy Now
-      </a>
+        <a href="https://wa.me/91808067XXXX?text=Hi%20I%20want%20to%20buy%20this%20saree"
+        target="_blank"
+          class="bg-green-600 text-white px-4 py-2 rounded-lg block text-center mt-3">
+          Buy Now
+</a>
 
       </div>
     </div>
