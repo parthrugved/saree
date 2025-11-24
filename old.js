@@ -6,7 +6,7 @@ const sarees = [
     img: "ci1.png",
     name: "The Catalyzer",
     price: "₹1600",
-    code: "code",
+    code: "Code - CI1",
     description: "This is a very good saree",
     
   },
@@ -15,7 +15,7 @@ const sarees = [
     img: "ci2.png",
     name: "Shooting Stars",
     price: "₹1600",
-    code: "code",
+    code: "Code - CI2",
     description: "This is a saree"
   },
   {
@@ -23,7 +23,7 @@ const sarees = [
     img: "ci3.png",
     name: "Nebula Dream",
     price: "₹1500",
-    code: "code",
+    code: "Code - CI3",
     description: "This is a saree",
     stock: false
   
@@ -33,7 +33,7 @@ const sarees = [
     img: "ci4.png",
     name: "Cosmic Charm",
     price: "₹1500",
-    code: "code",
+    code: "Code - CI4",
     description: "This is a saree",
     stock: false
   },
@@ -42,7 +42,7 @@ const sarees = [
     img: "ci5.png",
     name: "Celestial Flow",
     price: "₹1500",
-    code: "code",
+    code: "Code - CI5",
     description: "This is a saree"
   },
   {
@@ -50,7 +50,7 @@ const sarees = [
     img: "ci6.png",
     name: "Starry Mist",
     price: "₹1500",
-    code: "code",
+    code: "Code - CI6",
     description: "This is a saree"
   },
   {
@@ -58,7 +58,7 @@ const sarees = [
     img: "ci7.png",
     name: "Starry Mist",
     price: "₹1500",
-    code: "code",
+    code: "Code - CI7",
     description: "This is a saree"
   },
 
@@ -67,7 +67,7 @@ const sarees = [
     img: "ci8.png",
     name: "Starry Mist",
     price: "₹1500",
-    code: "code",
+    code: "Code - CI8",
     description: "This is a saree"
   },
   {
@@ -75,7 +75,7 @@ const sarees = [
     img: "ci9.png",
     name: "Starry Mist",
     price: "₹1200",
-    code: "code",
+    code: "Code - CI9",
     description: "This is a saree"
   },
   {
@@ -83,7 +83,7 @@ const sarees = [
     img: "ci10.png",
     name: "Starry Mist",
     price: "₹1200",
-    code: "code",
+    code: "Code - CI10",
     description: "This is a saree"
   },
   {
@@ -91,7 +91,7 @@ const sarees = [
     img: "ci11.png",
     name: "Starry Mist",
     price: "₹1200",
-    code: "code",
+    code: "Code - CI11",
     description: "This is a saree"
   },
 
@@ -100,7 +100,7 @@ const sarees = [
     img: "ci12.png",
     name: "Starry Mist",
     price: "₹1599",
-    code: "code",
+    code: "Code - CI12",
     description: "This is a saree"
   },
 
@@ -109,7 +109,7 @@ const sarees = [
     img: "ci13.png",
     name: "Starry Mist",
     price: "₹1599",
-    code: "code",
+    code: "Code - CI13",
     description: "This is a saree",
     stock: false
   },
