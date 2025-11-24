@@ -529,37 +529,49 @@ const sarees = [
 ];
 
 // 🪄 Reference to container
+
 const container = document.getElementById("product-container");
 
-// 🌀 Loop to render items
 sarees.forEach((item) => {
+
+  const message =
+    `Hello SareeKraft 👋%0A` +
+    `I want to buy this saree:%0A%0A` +
+    `✨ Name: ${item.name}%0A` +
+    `💰 Price: ${item.price}%0A` +
+    `🏷️ Category: ${item.category}%0A%0A` +
+    `📸 Image:%0Ahttps://sareekraft.in/images/${item.type}/${item.img}%0A%0A` +
+    `Please confirm availability.`;
+
+  const whatsappURL = `https://wa.me/918080674236?text=${message}`;
+
   const card = `
     <div class="lg:w-1/4 md:w-1/2 p-4 w-full relative">
-  
+
       ${item.stock === false ? `
         <span class="absolute z-10 top-2 left-2 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded hover:cursor-pointer">
           OUT OF STOCK
-        </span>
-      ` : ""}
+        </span>` : ""}
+
       <a class="block relative h-150 rounded overflow-hidden">
         <img alt="${item.name}" class="object-cover object-center w-full h-full block" src="images/${item.type}/${item.img}">
       </a>
+
       <div class="mt-4">
         <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">${item.category}</h3>
         <h2 class="text-gray-900 title-font text-lg font-medium">${item.name}</h2>
         <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">${item.description}</h3>
         <p class="mt-1">${item.price}</p>
 
-        <a href="https://wa.me/918080674236?text=Hi%20I%20want%20to%20buy%20this%20saree"
-        target="_blank"
-          class="bg-green-600 text-white px-4 py-2 rounded-lg block text-center mt-3">
-          Buy Now
-</a>
+        <a href="${whatsappURL}"
+           target="_blank"
+           class="bg-green-600 text-white px-4 py-2 rounded-lg block text-center mt-3">
+           Buy Now
+        </a>
 
       </div>
     </div>
   `;
+
   container.insertAdjacentHTML("beforeend", card);
 });
-
-
