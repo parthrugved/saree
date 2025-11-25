@@ -541,7 +541,6 @@ sarees.forEach((item) => {
     `✨ Name: ${item.name}%0A` +
     `💰 Price: ${item.price}%0A` +
     `🏷️ code: ${item.code}%0A%0A` +
-    `📸 Image:%0Ahttps://sareekraft.in/images/${item.type}/${item.img}%0A%0A` +
     `Please confirm availability.`;
 
   const whatsappURL = `https://wa.me/918080674236?text=${message}`;
