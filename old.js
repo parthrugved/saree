@@ -523,7 +523,6 @@ const sarees = [
     name: "Starry Mist",
     price: "₹1499",
     code: "code",
-    
     description: "This is a saree"
   },
   
