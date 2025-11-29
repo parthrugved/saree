@@ -1,4 +1,4 @@
-
+// alert("Note: The Product images may take some time to load. Please co-oprate and wait till the images load")
 // 🧵 Product data map
 const sarees = [
   {
