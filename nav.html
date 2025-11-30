@@ -2,17 +2,39 @@
 
 <style>
     @keyframes slideRight {
-        from { transform: translateX(100%); }
-        to   { transform: translateX(0); }
+        from {
+            transform: translateX(100%);
+        }
+
+        to {
+            transform: translateX(0);
+        }
     }
 
     @keyframes slideClose {
-        from { transform: translateX(0); }
-        to   { transform: translateX(100%); }
+        from {
+            transform: translateX(0);
+        }
+
+        to {
+            transform: translateX(100%);
+        }
     }
 
-    .menu-open { animation: slideRight 0.3s ease forwards; }
-    .menu-close { animation: slideClose 0.3s ease forwards; }
+    .menu-open {
+        animation: slideRight 0.3s ease forwards;
+    }
+
+    .menu-close {
+        animation: slideClose 0.3s ease forwards;
+    }
+    
+    .img{
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        
+    }
 </style>
 
 <header class="text-gray-600 body-font">
@@ -37,8 +59,7 @@
         <!-- MOBILE NAV -->
         <div class="md:hidden flex items-center w-full justify-end">
 
-            <a href="shop.html"
-               class="text-blue-600 font-semibold absolute left-1/2 transform -translate-x-1/2">
+            <a href="shop.html" class="text-blue-600 font-semibold absolute left-1/2 transform -translate-x-1/2">
                 Shop Now
             </a>
 
@@ -51,11 +72,12 @@
     </div>
 
     <!-- SLIDE MENU -->
-    <div id="mobileMenu"
-         class="fixed top-0 right-0 h-full w-64 bg-white shadow-xl pt-20 px-6 
+    <div id="mobileMenu" class="fixed top-0 right-0 h-full w-64 bg-white shadow-xl pt-20 px-6 
                 transform translate-x-full md:hidden z-50">
 
         <button id="closeBtn" class="absolute top-5 right-5 text-3xl">×</button>
+        <br>
+        <!-- <img class="img" height="10" src="logo.png" alt="logo"> -->
 
         <a href="index.html" class="block py-3 text-lg">Home</a>
         <a href="about.html" class="block py-3 text-lg">About Us</a>
@@ -65,27 +87,28 @@
     </div>
 </header>
 
+
 <script>
-function navInit() {
-    const menu = document.getElementById("mobileMenu");
-    const openBtn = document.getElementById("menuBtn");
-    const closeBtn = document.getElementById("closeBtn");
+    function navInit() {
+        const menu = document.getElementById("mobileMenu");
+        const openBtn = document.getElementById("menuBtn");
+        const closeBtn = document.getElementById("closeBtn");
 
-    if (!menu || !openBtn || !closeBtn) return;
+        if (!menu || !openBtn || !closeBtn) return;
 
-    let open = false;
+        let open = false;
 
-    openBtn.addEventListener("click", () => {
-        menu.classList.remove("menu-close");
-        menu.classList.add("menu-open");
-        open = true;
-    });
+        openBtn.addEventListener("click", () => {
+            menu.classList.remove("menu-close");
+            menu.classList.add("menu-open");
+            open = true;
+        });
 
-    closeBtn.addEventListener("click", () => {
-        menu.classList.remove("menu-open");
-        menu.classList.add("menu-close");
-        open = false;
-    });
-}
-navInit();
+        closeBtn.addEventListener("click", () => {
+            menu.classList.remove("menu-open");
+            menu.classList.add("menu-close");
+            open = false;
+        });
+    }
+    navInit();
 </script>

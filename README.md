@@ -1,10 +1,18 @@
-#  SareeKraft — Modern Ready-to-Wear Sarees  
+#  SareeKraft — Modern Ready-to-Wear Sarees
+## Our Tagline - Elegance In Every Drape  
 Website: https://sareekraft.in  
 
 SareeKraft is an elegant, modern, and easy-to-use eCommerce website built to showcase and sell beautifully designed sarees.  
 The goal of SareeKraft is to blend **traditional Indian fashion** with **modern usability**, offering customers a smooth and premium shopping experience.
 
 ---
+## About The Devloper 
+Website: https://parthrugved.github.io/aboutme/index.html
+
+My Github: https://github.com/parthrugved
+
+
+##
 
 ## ✨ Features
 

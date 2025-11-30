@@ -1,4 +1,4 @@
-
+// alert("Note: The Product images may take some time to load. Please co-oprate and wait till the images load")
 // 🧵 Product data map
 const sarees = [
   {
@@ -338,21 +338,14 @@ const sarees = [
     description: "This is a saree"
   }, {
     type: "designer sarees",
-    img: "d10012.png",
+    img: "d10012 (2).jpg",
     name: "Starry Mist",
     price: "₹1499",
     code: "code",
     description: "This is a saree"
   }, {
     type: "designer sarees",
-    img: "d10013.png",
-    name: "Starry Mist",
-    price: "₹1499",
-    code: "code",
-    description: "This is a saree"
-  }, {
-    type: "designer sarees",
-    img: "d10014.png",
+    img: "d10013 (1).jpg",
     name: "Starry Mist",
     price: "₹1499",
     code: "code",
