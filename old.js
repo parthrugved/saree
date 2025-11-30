@@ -371,6 +371,20 @@ const sarees = [
     price: "₹1499",
     code: "code",
     description: "This is a saree"
+  },  {
+    type: "designer sarees",
+    img: "d100018.png",
+    name: "Starry Mist",
+    price: "₹1499",
+    code: "code",
+    description: "This is a saree"
+  },  {
+    type: "designer sarees",
+    img: "d100019.png",
+    name: "Starry Mist",
+    price: "₹1499",
+    code: "code",
+    description: "This is a saree"
   },
   //khun sarees
   {
