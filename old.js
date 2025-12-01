@@ -272,6 +272,14 @@ const sarees = [
     code: "CO22",
     description: "This is a saree"
   },
+   {
+    type: "cotton sarees",
+    img: "c (23).png",
+    name: "Starry Mist",
+    price: "₹1299",
+    code: "CO23",
+    description: "This is a saree"
+  },
   //desiginer sarees 
   {
     type: "designer sarees",
