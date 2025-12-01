@@ -119,49 +119,49 @@ const sarees = [
     img: "c (1).png",
     name: "Starry Mist",
     price: "₹1200",
-    code: "code",
+    code: "CO1",
     description: "This is a saree"
   }, {
     type: "cotton sarees",
     img: "c (2).png",
     name: "Starry Mist",
     price: "₹2399",
-    code: "code",
+    code: "CO2",
     description: "This is a saree"
   }, {
     type: "cotton sarees",
     img: "c (3).png",
     name: "Starry Mist",
     price: "₹1200",
-    code: "code",
+    code: "CO3",
     description: "This is a saree"
   }, {
     type: "cotton sarees",
     img: "c (4).png",
     name: "Starry Mist",
     price: "₹1200",
-    code: "code",
+    code: "CO4",
     description: "This is a saree"
   }, {
     type: "cotton sarees",
     img: "c (5).png",
     name: "Starry Mist",
     price: "₹2399",
-    code: "code",
+    code: "CO5",
     description: "This is a saree"
   }, {
     type: "cotton sarees",
     img: "c (6).png",
     name: "Starry Mist",
     price: "₹2399",
-    code: "code",
+    code: "CO6",
     description: "This is a saree"
   }, {
     type: "cotton sarees",
     img: "c (7).png",
     name: "Starry Mist",
     price: "₹2399",
-    code: "code",
+    code: "CO7",
     description: "This is a saree"
   },
   {
@@ -169,35 +169,35 @@ const sarees = [
     img: "c (8).png",
     name: "Starry Mist",
     price: "₹2499",
-    code: "code",
+    code: "CO8",
     description: "This is a saree"
   }, {
     type: "cotton sarees",
     img: "c (9).png",
     name: "Starry Mist",
     price: "₹2499",
-    code: "code",
+    code: "CO9",
     description: "This is a saree"
   }, {
     type: "cotton sarees",
     img: "c (10).png",
     name: "Starry Mist",
     price: "₹2499",
-    code: "code",
+    code: "CO10",
     description: "This is a saree"
   }, {
     type: "cotton sarees",
     img: "c (11).png",
     name: "Starry Mist",
     price: "₹2200",
-    code: "code",
+    code: "CO11",
     description: "This is a saree"
   }, {
     type: "cotton sarees",
     img: "c (12).png",
     name: "Starry Mist",
     price: "₹2200",
-    code: "code",
+    code: "CO12",
     description: "This is a saree"
   },
   {
@@ -205,56 +205,56 @@ const sarees = [
     img: "c (13).png",
     name: "Starry Mist",
     price: "₹2200",
-    code: "code",
+    code: "CO13",
     description: "This is a saree"
   }, {
     type: "cotton sarees",
     img: "c (14).png",
     name: "Starry Mist",
     price: "₹2200",
-    code: "code",
+    code: "CO14",
     description: "This is a saree"
   }, {
     type: "cotton sarees",
     img: "c (15).png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "CO15",
     description: "This is a saree"
   }, {
     type: "cotton sarees",
     img: "c (16).jpg",
     name: "Starry Mist",
     price: "₹1299",
-    code: "code",
+    code: "CO16",
     description: "This is a saree"
   }, {
     type: "cotton sarees",
     img: "c (17).jpg",
     name: "Starry Mist",
     price: "₹1299",
-    code: "code",
+    code: "CO17",
     description: "This is a saree"
   }, {
     type: "cotton sarees",
     img: "c (18).jpg",
     name: "Starry Mist",
     price: "₹1299",
-    code: "code",
+    code: "CO18",
     description: "This is a saree"
   }, {
     type: "cotton sarees",
     img: "c (19).jpg",
     name: "Starry Mist",
     price: "₹1299",
-    code: "code",
+    code: "CO19",
     description: "This is a saree"
   }, {
     type: "cotton sarees",
     img: "c (20).jpg",
     name: "Starry Mist",
     price: "₹1299",
-    code: "code",
+    code: "CO20",
     description: "This is a saree"
   },
   {
@@ -262,14 +262,14 @@ const sarees = [
     img: "c (21).jpeg",
     name: "Starry Mist",
     price: "₹1299",
-    code: "code",
+    code: "CO21",
     description: "This is a saree"
   }, {
     type: "cotton sarees",
     img: "c (22).jpg",
     name: "Starry Mist",
     price: "₹1299",
-    code: "code",
+    code: "CO22",
     description: "This is a saree"
   },
   //desiginer sarees 
