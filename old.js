@@ -266,7 +266,7 @@ const sarees = [
     description: "This is a saree"
   }, {
     type: "cotton sarees",
-    img: "c (22).jpg",
+    img: "c (22).png",
     name: "Starry Mist",
     price: "₹1299",
     code: "CO22",
@@ -278,7 +278,7 @@ const sarees = [
     img: "d10001.png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "DS1",
     description: "This is a saree"
   },
   {
@@ -286,119 +286,119 @@ const sarees = [
     img: "d10002.png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "DS2",
     description: "This is a saree"
   }, {
     type: "designer sarees",
     img: "d10003.png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "DS3",
     description: "This is a saree"
   }, {
     type: "designer sarees",
     img: "d10004.png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "DS4",
     description: "This is a saree"
   }, {
     type: "designer sarees",
     img: "d10005.png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "DS5",
     description: "This is a saree"
   }, {
     type: "designer sarees",
     img: "d10006.png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "DS6",
     description: "This is a saree"
   }, {
     type: "designer sarees",
     img: "d10007.png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "DS7",
     description: "This is a saree"
   }, {
     type: "designer sarees",
     img: "d10008.png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "DS8",
     description: "This is a saree"
   }, {
     type: "designer sarees",
     img: "d10009.png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "DS9",
     description: "This is a saree"
   }, {
     type: "designer sarees",
     img: "d10010.png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "DS10",
     description: "This is a saree"
   }, {
     type: "designer sarees",
     img: "d10011.png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "DS11",
     description: "This is a saree"
   }, {
     type: "designer sarees",
     img: "d10012 (2).jpg",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+      code: "DS12",
     description: "This is a saree"
   }, {
     type: "designer sarees",
     img: "d10013 (1).jpg",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "DS13",
     description: "This is a saree"
   }, {
     type: "designer sarees",
     img: "d10015.png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "DS14",
     description: "This is a saree"
   }, {
     type: "designer sarees",
     img: "d10016.png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "DS15",
     description: "This is a saree"
   }, {
     type: "designer sarees",
     img: "d10017.png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "DS16",
     description: "This is a saree"
   },  {
     type: "designer sarees",
     img: "d100018.png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+      code: "DS17",
     description: "This is a saree"
   },  {
     type: "designer sarees",
     img: "d100019.png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "DS18",
     description: "This is a saree"
   },
   //khun sarees
@@ -407,35 +407,35 @@ const sarees = [
     img: "khan (1).png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "KS1",
     description: "This is a saree"
   },{
     type: "khan sarees",
     img: "khan (2).png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "KS2",
     description: "This is a saree"
   },{
     type: "khan sarees",
     img: "khan (3).png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "KS3",
     description: "This is a saree"
   },{
     type: "khan sarees",
     img: "khan (4).png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "KS4",
     description: "This is a saree"
   },{
     type: "khan sarees",
     img: "khan (5).png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "KS5",
     description: "This is a saree"
   },
   //net sarees
