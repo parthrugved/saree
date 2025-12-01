@@ -1,0 +1,47 @@
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+    .logo{
+        cursor: pointer;
+        width: 100px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 700px;
+    }
+</style>
+<footer class="bg-gray-900 text-gray-300 pt-10 pb-6 mt-16 relative">
+
+    <!-- Decorative gradient line -->
+    <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-pink-500 to-yellow-400"></div>
+  
+    <div class="container mx-auto px-5 text-center">
+  
+      <!-- Logo -->
+      <img class="logo" src="logo.png" alt="SareeKraft Logo" class="w-28 mx-auto mb-4 opacity-90 hover:opacity-100 transition">
+  <br>
+      <!-- Tagline -->
+      <p class="text-sm text-gray-400 mb-6 italic">
+        Where tradition meets elegance ✨
+      </p>
+  
+      <!-- Quick Links -->
+      <div class="flex justify-center flex-wrap gap-6 text-sm mb-6">
+        <a href="index.html" class="hover:text-white transition">Home</a>
+        <a href="shop.html" class="hover:text-white transition">Shop</a>
+        <a href="about.html" class="hover:text-white transition">About</a>
+        <a href="fee.html" class="hover:text-white transition">Feedback</a>
+        <a href="form.html" class="hover:text-white transition">Contact</a>
+      </div>
+  
+      <!-- Copyright -->
+      <p class="text-gray-500 text-xs tracking-wide">
+        © <span id="year"></span> SareeKraft — Crafted with ❤️ in India.
+      </p>
+  
+    </div>
+  </footer>
+  
+  <script>
+    // Auto update year
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+  

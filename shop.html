@@ -44,7 +44,24 @@ fetch("nav.html")
 
   </main>
   <script src="old.js"></script>
-  
+  <div id="footer"></div>
+
+<script>
+fetch("footer.html")
+  .then(res => res.text())
+  .then(data => {
+    document.getElementById("footer").innerHTML = data;
+
+    // Re-run scripts inside nav.html
+    const scripts = document.querySelectorAll("#footer script");
+    scripts.forEach(script => {
+      const newScript = document.createElement("script");
+      newScript.textContent = script.textContent;
+      document.body.appendChild(newScript);
+    });
+  });
+</script>
+
 </body>
 
 </html>
