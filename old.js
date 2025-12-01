@@ -452,42 +452,42 @@ const sarees = [
     img: "net (1).png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "NET1",
     description: "This is a saree"
   }, {
     type: "net sarees",
     img: "net (2).png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "NET2",
     description: "This is a saree"
   },{
     type: "net sarees",
     img: "net (3).png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "NET3",
     description: "This is a saree"
   },{
     type: "net sarees",
     img: "net (4).png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "NET4",
     description: "This is a saree"
   },{
     type: "net sarees",
     img: "net (5).png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "NET5",
     description: "This is a saree"
   },{
     type: "net sarees",
     img: "net (6).png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "NET6",
     description: "This is a saree"
   },
   //wedding sarees
@@ -496,63 +496,63 @@ const sarees = [
     img: "wedding  (1).jpg",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "WS1",
     description: "This is a saree"
   }, {
     type: "wedding sarees",
     img: "wedding  (2).png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "WS2",
     description: "This is a saree"
   },{
     type: "wedding sarees",
     img: "wedding  (3).png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "WS3",
     description: "This is a saree"
   },{
     type: "wedding sarees",
     img: "wedding  (4).png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "WS4",
     description: "This is a saree"
   },{
     type: "wedding sarees",
     img: "wedding  (5).png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "WS5",
     description: "This is a saree"
   },{
     type: "wedding sarees",
     img: "wedding  (6).png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "WS6",
     description: "This is a saree"
   },{
     type: "wedding sarees",
     img: "wedding  (7).png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "WS7",
     description: "This is a saree"
   },{
     type: "wedding sarees",
     img: "wedding  (8).png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "WS8",
     description: "This is a saree"
   },{
     type: "wedding sarees",
     img: "wedding  (9).png",
     name: "Starry Mist",
     price: "₹1499",
-    code: "code",
+    code: "WS9",
     description: "This is a saree"
   },
   
