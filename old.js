@@ -113,7 +113,7 @@ const sarees = [
     description: "This is a saree",
     stock: false
   },
-  // second 
+  // Cotton 
   {
     type: "cotton sarees",
     img: "c (1).png",
@@ -252,6 +252,21 @@ const sarees = [
   }, {
     type: "cotton sarees",
     img: "c (20).jpg",
+    name: "Starry Mist",
+    price: "₹1299",
+    code: "code",
+    description: "This is a saree"
+  },
+  {
+    type: "cotton sarees",
+    img: "c (21).jpeg",
+    name: "Starry Mist",
+    price: "₹1299",
+    code: "code",
+    description: "This is a saree"
+  }, {
+    type: "cotton sarees",
+    img: "c (22).jpg",
     name: "Starry Mist",
     price: "₹1299",
     code: "code",
