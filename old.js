@@ -141,7 +141,8 @@ const sarees = [
     name: "Starry Mist",
     price: "₹1200",
     code: "CO4",
-    description: "Lightweight cotton saree with a neat finish, perfect for school or college functions."
+    description: "Lightweight cotton saree with a neat finish, perfect for school or college functions.",
+    stock: false
   }, {
     type: "cotton sarees",
     img: "c (5).png",
@@ -227,7 +228,8 @@ const sarees = [
     name: "Starry Mist",
     price: "₹1299",
     code: "CO16",
-    description: "Light, airy cotton saree perfect for summer days and casual family functions."
+    description: "Light, airy cotton saree perfect for summer days and casual family functions.",
+    stock: false
   }, {
     type: "cotton sarees",
     img: "c (17).jpg",
@@ -241,7 +243,8 @@ const sarees = [
     name: "Starry Mist",
     price: "₹1299",
     code: "CO18",
-    description: "A classic cotton saree that is easy to maintain and perfect for daily use."
+    description: "A classic cotton saree that is easy to maintain and perfect for daily use.",
+    stock: false
   }, {
     type: "cotton sarees",
     img: "c (19).jpg",
@@ -393,7 +396,8 @@ const sarees = [
     name: "Starry Mist",
     price: "₹1499",
     code: "DS16",
-    description: "Perfect designer saree for parties, giving you a polished and glamorous appearance."
+    description: "Perfect designer saree for parties, giving you a polished and glamorous appearance.",
+    stock: false
   },  {
     type: "designer sarees",
     img: "d100018.png",
