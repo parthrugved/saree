@@ -589,7 +589,7 @@ sarees.forEach((item) => {
         </span>` : ""}
 
       <a class="block relative h-150 rounded overflow-hidden">
-        <img alt="${item.name}" class="object-cover object-center w-full h-full block" src="images/${item.type}/${item.img}">
+        <img alt="${item.name}" class="object-cover object-center w-full h-full block" src="optimized_images/${item.type}/${item.img}">
       </a>
 
       <div class="mt-4">
