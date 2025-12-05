@@ -566,8 +566,8 @@ const sarees = [
 
 const container = document.getElementById("product-container");
 
+// old.js style rendering, with stock handling for button/label
 sarees.forEach((item) => {
-
   const message =
     `Hello SareeKraft 👋%0A` +
     `I want to buy this saree:%0A%0A` +
@@ -578,10 +578,12 @@ sarees.forEach((item) => {
 
   const whatsappURL = `https://wa.me/918080674236?text=${message}`;
 
+  const isOut = item.stock === false;
+
   const card = `
     <div class="lg:w-1/4 md:w-1/2 p-4 w-full relative">
 
-      ${item.stock === false ? `
+      ${isOut ? `
         <span class="absolute z-10 top-2 left-2 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded hover:cursor-pointer">
           OUT OF STOCK
         </span>` : ""}
@@ -596,12 +598,17 @@ sarees.forEach((item) => {
         <p class="text-gray-700 text-sm leading-snug mt-1">${item.description}</p>
         <p class="mt-2 text-base font-semibold text-gray-900">${item.price}</p>
 
-        <a href="${whatsappURL}"
-           target="_blank"
-           class="bg-green-600 text-white px-4 py-2 rounded-lg block text-center mt-3">
-           Buy Now
-        </a>
-
+        ${
+          isOut
+            ? `<div class="bg-gray-400 text-white px-4 py-2 rounded-lg block text-center mt-3 cursor-not-allowed select-none">
+                  Buy Now
+               </div>`
+            : `<a href="${whatsappURL}"
+                  target="_blank"
+                  class="bg-green-600 text-white px-4 py-2 rounded-lg block text-center mt-3">
+                  Buy Now
+               </a>`
+        }
       </div>
     </div>
   `;
