@@ -16,7 +16,8 @@ const sarees = [
     name: "Everyday Elegance",
     price: "₹1600",
     code: "Code - CI2",
-    description: "Lightweight and easy to carry, this casual saree adds a subtle sparkle to your everyday look."
+    description: "Lightweight and easy to carry, this casual saree adds a subtle sparkle to your everyday look.",
+    stock: false
   },
   {
     type: "casual wear",
@@ -288,7 +289,7 @@ const sarees = [
     type: "designer sarees",
     img: "d10001.webp",
     name: "Designer Collection",
-    price: "₹1499",
+    price: "₹2200",
     code: "DS1",
     description: "A stylish designer saree with a modern touch, perfect for parties and evening events."
   },
@@ -317,17 +318,19 @@ const sarees = [
     type: "designer sarees",
     img: "d10005.webp",
     name: "Designer Collection",
-    price: "₹1499",
+    price: "₹2100",
     code: "DS5",
     description: "Elegant designer saree with a rich look, perfect for sangeet nights and cocktail parties."
-  }, {
-    type: "designer sarees",
-    img: "d10006.webp",
-    name: "Designer Collection",
-    price: "₹1499",
-    code: "DS6",
-    description: "Chic designer drape that blends traditional charm with contemporary style."
-  }, {
+  },
+  //  {
+  //   type: "designer sarees",
+  //   img: "d10006.webp",
+  //   name: "Designer Collection",
+  //   price: "₹1499",
+  //   code: "DS6",
+  //   description: "Chic designer drape that blends traditional charm with contemporary style."
+  // },
+   {
     type: "designer sarees",
     img: "d10007.webp",
     name: "Designer Collection",
@@ -387,14 +390,14 @@ const sarees = [
     type: "designer sarees",
     img: "d10016.webp",
     name: "Designer Collection",
-    price: "₹1499",
+    price: "₹1999",
     code: "DS15",
     description: "A graceful designer piece for women who love subtle yet striking ethnic wear."
   }, {
     type: "designer sarees",
     img: "d10017.webp",
     name: "Designer Collection",
-    price: "₹1499",
+    price: "₹1999",
     code: "DS16",
     description: "Perfect designer saree for parties, giving you a polished and glamorous appearance.",
     stock: false
@@ -506,56 +509,56 @@ const sarees = [
     type: "wedding sarees",
     img: "wedding  (2).webp",
     name: "Bridal Collection",
-    price: "₹1499",
+    price: "₹3100",
     code: "WS2",
     description: "Traditional wedding saree ideal for engagement, haldi or reception functions."
   },{
     type: "wedding sarees",
     img: "wedding  (3).webp",
     name: "Bridal Collection",
-    price: "₹1499",
+    price: "₹2700",
     code: "WS3",
     description: "Regal wedding saree that adds a royal touch to your special day wardrobe."
   },{
     type: "wedding sarees",
     img: "wedding  (4).webp",
     name: "Bridal Collection",
-    price: "₹1499",
+    price: "₹2700",
     code: "WS4",
     description: "Beautifully crafted wedding saree designed for festive rituals and ceremonies."
   },{
     type: "wedding sarees",
     img: "wedding  (5).webp",
     name: "Bridal Collection",
-    price: "₹1499",
+    price: "₹3100",
     code: "WS5",
     description: "An elegant wedding saree with a luxurious feel, perfect for bridal events."
   },{
     type: "wedding sarees",
     img: "wedding  (6).webp",
     name: "Bridal Collection",
-    price: "₹1499",
+    price: "₹2700",
     code: "WS6",
     description: "Classic wedding saree that gives a rich, traditional look for auspicious occasions."
   },{
     type: "wedding sarees",
     img: "wedding  (7).webp",
     name: "Bridal Collection",
-    price: "₹1499",
+    price: "₹2499",
     code: "WS7",
     description: "Graceful wedding saree ideal for family weddings, receptions and grand functions."
   },{
     type: "wedding sarees",
     img: "wedding  (8).webp",
     name: "Bridal Collection",
-    price: "₹1499",
+    price: "₹2499",
     code: "WS8",
     description: "A festive wedding saree with a stunning presence, perfect for important ceremonies."
   },{
     type: "wedding sarees",
     img: "wedding  (9).webp",
     name: "Bridal Collection",
-    price: "₹1499",
+    price: "₹3300",
     code: "WS9",
     description: "Traditional yet stylish wedding saree crafted to make you stand out at any celebration."
   },
