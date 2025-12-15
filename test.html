@@ -30,147 +30,36 @@
       });
   </script>
   <main>
-
-    <section class="text-gray-600 body-font">
-      <div class="container px-5 py-24 mx-auto">
-        <div id="product-container" class="flex flex-wrap -m-4">
-          <!-- JS will inject product cards here -->
+    <details>
+      <summary>test</summary>
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div id="product-container" class="flex flex-wrap -m-4">
+            <!-- JS will inject product cards here -->
+          </div>
         </div>
-      </div>
+  
+      </section>
+      <script src="script.js"></script>
+    </details>
 
-    </section>
+    <details>
+      <summary>test</summary>
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div id="product-container-test" class="flex flex-wrap -m-4">
+            <!-- JS will inject product cards here -->
+          </div>
+        </div>
+  
+      </section>
+      <script src="test.js"></script>
+    </details>
+
+   
 
   </main>
 
-  <script>
-
-// const sarees = [
-//   {
-//     type: "casual wear",
-//     img: "ci1.png",
-//     name: "The Catalyzer",
-//     price: "₹1600",
-//     code: "Code - CI1",
-//     description: "This is a very good saree",
-//     fabricType: "Silk ",
-//     length: "5.5 m",
-//     blousePiece: "Yes (0.8 m)",
-//     washCare: "Dry clean only",
-//     occasion: "Festive",
-//     weight: "600 g",
-//     deliveryTime: "4-6 days",
-//     stock: true,
-//   },
-//   {
-//     type: "casual wear",
-//     img: "ci2.png",
-//     name: "Shooting Stars",
-//     price: "₹1600",
-//     code: "Code - CI2",
-//     description: "This is a saree",
-//     fabricType: "Georgette",
-//     length: "5.4 m",
-//     blousePiece: "No",
-//     washCare: "Gentle hand wash",
-//     occasion: "Workwear",
-//     weight: "520 g",
-//     deliveryTime: "5-7 days",
-//     stock: true,
-//   },
-//   {
-//     type: "casual wear",
-//     img: "ci3.png",
-//     name: "Nebula Dream",
-//     price: "₹1500",
-//     code: "Code - CI3",
-//     description: "This is a saree",
-//     fabricType: "Satin",
-//     length: "5.3 m",
-//     blousePiece: "Yes (0.7 m)",
-//     washCare: "Dry clean only",
-//     occasion: "Party",
-//     weight: "580 g",
-//     deliveryTime: "3-5 days",
-//     stock: false
-  
-//   },
-// ]
-//     const container = document.getElementById("product-container");
-
-
-// sarees.forEach((item) => {
-
-//   const message =
-//     `Hello SareeKraft 👋%0A` +
-//     `I want to buy this saree:%0A%0A` +
-//     `✨ Name: ${item.name}%0A` +
-//     `💰 Price: ${item.price}%0A` +
-//     `🏷️ Code: ${item.code}%0A%0A` +
-//     `📸 Image:%0Ahttps://sareekraft.in/images/${item.type}/${item.img}%0A%0A` +
-//     `Please confirm availability.`;
-
-//   const whatsappURL = `https://wa.me/918080674236?text=${message}`;
-
-//   // 🔗 PRODUCT PAGE URL (ALL DATA PASSED)
-//   const productData = {
-//     img: item.img,
-//     name: item.name,
-//     price: item.price,
-//     code: item.code,
-//     description: item.description,
-//     type: item.type,
-//     stock: item.stock,
-//     fabricType: item.fabricType,
-//     length: item.length,
-//     blousePiece: item.blousePiece,
-//     washCare: item.washCare,
-//     occasion: item.occasion,
-//     weight: item.weight,
-//     deliveryTime: item.deliveryTime,
-//   };
-
-//   const params = new URLSearchParams();
-//   Object.entries(productData).forEach(([key, value]) => {
-//     if (value !== undefined && value !== null && value !== "") {
-//       params.append(key, value);
-//     }
-//   });
-
-//   const productURL = `product.html?${params.toString()}`;
-
-//   const card = `
-//     <div class="lg:w-1/4 md:w-1/2 p-4 w-full relative">
-
-//       ${item.stock === false ? `
-//         <span class="absolute z-10 top-2 left-2 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded hover:cursor-pointer">
-//           OUT OF STOCK
-//         </span>` : ""}
-
-//       <!-- 🔗 CLICK IMAGE TO OPEN PRODUCT PAGE -->
-//       <a href="${productURL}" class="block relative h-150 rounded overflow-hidden">
-//         <img alt="${item.name}" class="object-cover object-center w-full h-full block" 
-//              src="images/${item.type}/${item.img}">
-//       </a>
-
-//       <div class="mt-4">
-//         <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">${item.code}</h3>
-//         <h2 class="text-gray-900 title-font text-lg font-medium">${item.name}</h2>
-//         <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">${item.description}</h3>
-//         <p class="mt-1">${item.price}</p>
-
-//         <a href="${whatsappURL}"
-//            target="_blank"
-//            class="bg-green-600 text-white px-4 py-2 rounded-lg block text-center mt-3">
-//            Buy Now
-//         </a>
-//       </div>
-//     </div>
-//   `;
-
-//   container.insertAdjacentHTML("beforeend", card);
-// });
-
-  </script>
 
 
 <div id="footer"></div>

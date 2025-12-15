@@ -284,6 +284,23 @@ const sarees = [
     code: "CO23",
     description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
   },
+  // Cotton silk
+  {
+    type: "cotton silk",
+    img: "cos1.webp",
+    name: "Pure Comfort",
+    price: "₹1999",
+    code: "CO23",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton silk",
+    img: "cos2.webp",
+    name: "Pure Comfort",
+    price: "₹1999",
+    code: "CO23",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
   //desiginer sarees 
   {
     type: "designer sarees",
