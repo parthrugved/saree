@@ -30,7 +30,10 @@ const sarees = [
 ];
 
 // Reference to container
-const container = document.getElementById("product-container");
+const container = document.getElementById("product-container-test");
+if (container) {
+  console.log("true")
+}
 
 // old.js style rendering, with stock handling for button/label
 sarees.forEach((item) => {
