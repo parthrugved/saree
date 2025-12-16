@@ -1,12 +1,15 @@
 const cotton_silk = [
-    {
+
+  {
     type: "Cotton silk",
     img: "cos1.webp",
     name: "Pure Comfort",
     price: "₹1999",
     code: "COS1",
     description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+
   },
+
   {
     type: "Cotton silk",
     img: "cos2.webp",
@@ -14,8 +17,8 @@ const cotton_silk = [
     price: "₹1999",
     code: "COS2",
     description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+
   },
-  
 ];
 
 // 🪄 Reference to single container (id only) and deferred render
