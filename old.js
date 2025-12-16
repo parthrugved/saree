@@ -8,7 +8,7 @@ const sarees = [
     price: "₹1600",
     code: "Code - CI1",
     description: "A chic everyday saree with a soft drape and modern flair, perfect for effortless daily style.",
-    
+
   },
   {
     type: "casual wear",
@@ -27,7 +27,7 @@ const sarees = [
     code: "Code - CI3",
     description: "A dreamy casual saree with gentle tones that make it ideal for relaxed outings and get-togethers.",
     stock: false
-  
+
   },
   {
     type: "casual wear",
@@ -276,7 +276,7 @@ const sarees = [
     code: "CO22",
     description: "Breathable cotton saree designed for all-day comfort in any season."
   },
-   {
+  {
     type: "cotton sarees",
     img: "c (23).webp",
     name: "Pure Comfort",
@@ -347,7 +347,7 @@ const sarees = [
   //   code: "DS6",
   //   description: "Chic designer drape that blends traditional charm with contemporary style."
   // },
-   {
+  {
     type: "designer sarees",
     img: "d10007.webp",
     name: "Designer Collection",
@@ -387,7 +387,7 @@ const sarees = [
     img: "d10012 (2).webp",
     name: "Designer Collection",
     price: "₹1499",
-      code: "DS12",
+    code: "DS12",
     description: "A classy designer saree that pairs well with statement jewelry for a grand look."
   }, {
     type: "designer sarees",
@@ -418,14 +418,14 @@ const sarees = [
     code: "DS16",
     description: "Perfect designer saree for parties, giving you a polished and glamorous appearance.",
     stock: false
-  },  {
+  }, {
     type: "designer sarees",
     img: "d100018.webp",
     name: "Designer Collection",
     price: "₹1499",
-      code: "DS17",
+    code: "DS17",
     description: "A festive-ready designer saree that adds shimmer and style to your celebrations."
-  },  {
+  }, {
     type: "designer sarees",
     img: "d100019.webp",
     name: "Designer Collection",
@@ -441,28 +441,28 @@ const sarees = [
     price: "₹1499",
     code: "KS1",
     description: "Traditional khan saree with rich borders, perfect for cultural and festive occasions."
-  },{
+  }, {
     type: "khan sarees",
     img: "khan (2).webp",
     name: "Heritage Weave",
     price: "₹1499",
     code: "KS2",
     description: "Classic khun weave saree that reflects Maharashtrian heritage in a stylish way."
-  },{
+  }, {
     type: "khan sarees",
     img: "khan (3).webp",
     name: "Heritage Weave",
     price: "₹1499",
     code: "KS3",
     description: "Vibrant khan saree with a royal look, ideal for haldi, pujas and family events."
-  },{
+  }, {
     type: "khan sarees",
     img: "khan (4).webp",
     name: "Heritage Weave",
     price: "₹1499",
     code: "KS4",
     description: "Elegant khun saree with a textured body and contrast pallu for a timeless ethnic look."
-  },{
+  }, {
     type: "khan sarees",
     img: "khan (5).webp",
     name: "Heritage Weave",
@@ -485,28 +485,28 @@ const sarees = [
     price: "₹1499",
     code: "NET2",
     description: "Stylish net saree that adds a glamorous, lightweight layer to your festive style."
-  },{
+  }, {
     type: "net sarees",
     img: "net (3).webp",
     name: "Sheer Glamour",
     price: "₹1499",
     code: "NET3",
     description: "Elegant net drape ideal for receptions, cocktail nights and special celebrations."
-  },{
+  }, {
     type: "net sarees",
     img: "net (4).webp",
     name: "Sheer Glamour",
     price: "₹1499",
     code: "NET4",
     description: "Soft net saree with a graceful fall, perfect for a subtle yet stylish party look."
-  },{
+  }, {
     type: "net sarees",
     img: "net (5).webp",
     name: "Sheer Glamour",
     price: "₹1499",
     code: "NET5",
     description: "Trendy net saree that pairs beautifully with a designer blouse for functions."
-  },{
+  }, {
     type: "net sarees",
     img: "net (6).webp",
     name: "Sheer Glamour",
@@ -529,49 +529,49 @@ const sarees = [
     price: "₹3100",
     code: "WS2",
     description: "Traditional wedding saree ideal for engagement, haldi or reception functions."
-  },{
+  }, {
     type: "wedding sarees",
     img: "wedding  (3).webp",
     name: "Bridal Collection",
     price: "₹2700",
     code: "WS3",
     description: "Regal wedding saree that adds a royal touch to your special day wardrobe."
-  },{
+  }, {
     type: "wedding sarees",
     img: "wedding  (4).webp",
     name: "Bridal Collection",
     price: "₹2700",
     code: "WS4",
     description: "Beautifully crafted wedding saree designed for festive rituals and ceremonies."
-  },{
+  }, {
     type: "wedding sarees",
     img: "wedding  (5).webp",
     name: "Bridal Collection",
     price: "₹3100",
     code: "WS5",
     description: "An elegant wedding saree with a luxurious feel, perfect for bridal events."
-  },{
+  }, {
     type: "wedding sarees",
     img: "wedding  (6).webp",
     name: "Bridal Collection",
     price: "₹2700",
     code: "WS6",
     description: "Classic wedding saree that gives a rich, traditional look for auspicious occasions."
-  },{
+  }, {
     type: "wedding sarees",
     img: "wedding  (7).webp",
     name: "Bridal Collection",
     price: "₹2499",
     code: "WS7",
     description: "Graceful wedding saree ideal for family weddings, receptions and grand functions."
-  },{
+  }, {
     type: "wedding sarees",
     img: "wedding  (8).webp",
     name: "Bridal Collection",
     price: "₹2499",
     code: "WS8",
     description: "A festive wedding saree with a stunning presence, perfect for important ceremonies."
-  },{
+  }, {
     type: "wedding sarees",
     img: "wedding  (9).webp",
     name: "Bridal Collection",
@@ -579,7 +579,7 @@ const sarees = [
     code: "WS9",
     description: "Traditional yet stylish wedding saree crafted to make you stand out at any celebration."
   },
-  
+
 ];
 
 // 🪄 Reference to container
@@ -618,17 +618,16 @@ sarees.forEach((item) => {
         <p class="text-gray-700 text-sm leading-snug mt-1">${item.description}</p>
         <p class="mt-2 text-base font-semibold text-gray-900">${item.price}</p>
 
-        ${
-          isOut
-            ? `<div class="bg-gray-400 text-white px-4 py-2 rounded-lg block text-center mt-3 cursor-not-allowed select-none">
+        ${isOut
+      ? `<div class="bg-gray-400 text-white px-4 py-2 rounded-lg block text-center mt-3 cursor-not-allowed select-none">
                   Buy Now
                </div>`
-            : `<a href="${whatsappURL}"
+      : `<a href="${whatsappURL}"
                   target="_blank"
                   class="bg-green-600 text-white px-4 py-2 rounded-lg block text-center mt-3">
                   Buy Now
                </a>`
-        }
+    }
       </div>
     </div>
   `;

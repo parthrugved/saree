@@ -4,74 +4,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Test Navbar DRY</title>
   <script src="https://cdn.tailwindcss.com"></script>
-
-
+  <title>Test shop</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<body class="bg-gray-100">
-
+<body>
   <div id="navbar"></div>
 
-  <script>
-    fetch("nav.html")
-      .then(res => res.text())
-      .then(data => {
-        document.getElementById("navbar").innerHTML = data;
-
-        // Re-run scripts inside nav.html
-        const scripts = document.querySelectorAll("#navbar script");
-        scripts.forEach(script => {
-          const newScript = document.createElement("script");
-          newScript.textContent = script.textContent;
-          document.body.appendChild(newScript);
-        });
-      });
-  </script>
-  <main>
-    <details>
-      <summary>test</summary>
-      <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
-          <div id="product-container" class="flex flex-wrap -m-4">
-            <!-- JS will inject product cards here -->
-          </div>
-        </div>
-  
-      </section>
-      <script src="script.js"></script>
-    </details>
-
-    <details>
-      <summary>test</summary>
-      <section class="text-gray-600 body-font">
-        <div class="container px-5 py-24 mx-auto">
-          <div id="product-container-test" class="flex flex-wrap -m-4">
-            <!-- JS will inject product cards here -->
-          </div>
-        </div>
-  
-      </section>
-      <script src="test.js"></script>
-    </details>
-
-   
-
-  </main>
-
-
-
-<div id="footer"></div>
-
 <script>
-fetch("footer.html")
+fetch("nav.html")
   .then(res => res.text())
   .then(data => {
-    document.getElementById("footer").innerHTML = data;
+    document.getElementById("navbar").innerHTML = data;
 
     // Re-run scripts inside nav.html
-    const scripts = document.querySelectorAll("#footer script");
+    const scripts = document.querySelectorAll("#navbar script");
     scripts.forEach(script => {
       const newScript = document.createElement("script");
       newScript.textContent = script.textContent;
@@ -80,7 +28,114 @@ fetch("footer.html")
   });
 </script>
 
-<script src="test.js"></script>
+
+  <main>
+    <section>
+      <ul>
+        <li>
+          <details>
+            <summary>Casual Wear</summary>
+            <section class="text-gray-600 body-font">
+              <div class="container px-5 py-24 mx-auto">
+                <div id="product-container-casual" class="flex flex-wrap -m-4">
+                  <!-- JS will inject product cards here -->
+                </div>
+              </div>
+
+            </section>
+            <script src="casual_wear.js"></script>
+          </details>
+        </li>
+      
+        <li>
+          <details>
+            <summary>Cotton Sarees</summary>
+            <section class="text-gray-600 body-font">
+              <div class="container px-5 py-24 mx-auto">
+                <div id="product-container-cotton" class="flex flex-wrap -m-4">
+                  <!-- JS will inject product cards here -->
+                </div>
+              </div>
+
+            </section>
+            <script src="cotton_saree.js"></script>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>Cotton Silk</summary>
+            <section class="text-gray-600 body-font">
+              <div class="container px-5 py-24 mx-auto">
+                <div id="product-container-cotton_silk" class="flex flex-wrap -m-4">
+                  <!-- JS will inject product cards here -->
+                </div>
+              </div>
+
+            </section>
+            <script src="cottton_silk.js"></script>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>Desiginer Sarees</summary>
+            <section class="text-gray-600 body-font">
+              <div class="container px-5 py-24 mx-auto">
+                <div id="product-container-desiginer" class="flex flex-wrap -m-4">
+                  <!-- JS will inject product cards here -->
+                </div>
+              </div>
+
+            </section>
+            <script src="desiginer_sarees.js"></script>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>khun sarees (खण)</summary>
+            <section class="text-gray-600 body-font">
+              <div class="container px-5 py-24 mx-auto">
+                <div id="product-container-khun" class="flex flex-wrap -m-4">
+                  <!-- JS will inject product cards here -->
+                </div>
+              </div>
+
+            </section>
+            <script src="khun_sarees.js"></script>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>Net Sarees</summary>
+            <section class="text-gray-600 body-font">
+              <div class="container px-5 py-24 mx-auto">
+                <div id="product-container-net" class="flex flex-wrap -m-4">
+                  <!-- JS will inject product cards here -->
+                </div>
+              </div>
+
+            </section>
+            <script src="net_sarees.js"></script>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>Wedding Sarees</summary>
+            <section class="text-gray-600 body-font">
+              <div class="container px-5 py-24 mx-auto">
+                <div id="product-container-wedding" class="flex flex-wrap -m-4">
+                  <!-- JS will inject product cards here -->
+                </div>
+              </div>
+
+            </section>
+            <script src="wedding_sarees.js"></script>
+          </details>
+        </li>
+      </ul>
+    </section>
+
+
+  </main>
 </body>
 
 </html>
