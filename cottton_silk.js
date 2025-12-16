@@ -1,6 +1,6 @@
 const cotton_silk = [
     {
-    type: "cotton silk",
+    type: "Cotton silk",
     img: "cos1.webp",
     name: "Pure Comfort",
     price: "₹1999",
@@ -8,7 +8,7 @@ const cotton_silk = [
     description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
   },
   {
-    type: "cotton silk",
+    type: "Cotton silk",
     img: "cos2.webp",
     name: "Pure Comfort",
     price: "₹1999",
