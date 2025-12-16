@@ -4,7 +4,7 @@ const cotton_silk = [
     img: "cos1.webp",
     name: "Pure Comfort",
     price: "₹1999",
-    code: "CO23",
+    code: "COS1",
     description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
   },
   {
@@ -12,7 +12,7 @@ const cotton_silk = [
     img: "cos2.webp",
     name: "Pure Comfort",
     price: "₹1999",
-    code: "CO23",
+    code: "COS2",
     description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
   },
   
