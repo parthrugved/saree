@@ -1,9 +1,16 @@
+main ul {
+    font-size: 1.5rem;
+    padding: 20px;
+    font-weight: bold;
+}
+
 main section ul li summary {
     justify-content: center;
     align-items: center;
     /* color: rgba(19, 23, 138, 0.573); */
     display: flexbox;
     color: gray;
+    margin-bottom: 15px;
 
 }
 
@@ -13,11 +20,3 @@ main section ul li summary:hover {
     color: rgba(5, 8, 90, 0.729);
 }
 
-    hr {
-        margin: 20px;
-        border: 2px;
-        color: rgba(5, 8, 90, 0.729);
-
-    }
-
-   
