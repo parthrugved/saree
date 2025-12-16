@@ -19,6 +19,7 @@ const cotton_silk = [
 ];
 
 // 🪄 Reference to single container (id only) and deferred render
+console.log('cottton_silk.js loaded');
 function renderCottonSilk() {
   const container = document.getElementById('product-container-cotton_silk');
   if (!container) {
@@ -26,11 +27,12 @@ function renderCottonSilk() {
     return;
   }
 
-  console.debug('Rendering cotton_silk, count:', cotton_silk.length);
+  console.log('Rendering cotton_silk, count:', cotton_silk.length);
   container.innerHTML = '';
 
   cotton_silk.forEach((item, i) => {
     try {
+      console.log('Inserting cotton_silk item:', i, item.name);
       const message = `Hello SareeKraft 👋%0A` +
         `I want to buy this saree:%0A%0A` +
         `✨ Name: ${item.name}%0A` +
@@ -41,6 +43,7 @@ function renderCottonSilk() {
       const whatsappURL = `https://wa.me/918080674236?text=${encodeURIComponent(message)}`;
 
       const isOut = item.stock === false;
+      const imgSrc = encodeURI(`webp_images/${item.type}/${item.img}`);
 
       const card = `
         <div class="lg:w-1/4 md:w-1/2 p-4 w-full relative">
@@ -51,7 +54,7 @@ function renderCottonSilk() {
             </span>` : ''}
 
           <a class="block relative h-150 rounded overflow-hidden">
-            <img alt="${item.name}" class="object-cover object-center w-full h-full block" src="webp_images/${item.type}/${item.img}">
+            <img alt="${item.name}" class="object-cover object-center w-full h-full block" src="${imgSrc}">
           </a>
 
           <div class="mt-4">
