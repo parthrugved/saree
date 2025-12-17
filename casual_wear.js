@@ -1,12 +1,12 @@
 const casual_wear = [
-    {
+   {
         type: "casual wear",
         img: "ci1.webp",
         name: "Everyday Elegance",
         price: "₹1600",
         code: "Code - CI1",
-        description: "A chic everyday saree with a soft drape and modern flair, perfect for effortless daily style.",
-
+        description: "Lightweight and easy to carry, this casual saree adds a subtle sparkle to your everyday look."
+      
     },
     {
         type: "casual wear",
