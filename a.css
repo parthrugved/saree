@@ -2,14 +2,15 @@
 
 
 *{
-    padding: 10px;
+    /* padding: 10px; */
+    /* margin: 10px; */
 }
 
 
 h1{                                                                                     
     color: purple;
     font-weight: bold;
-    font-size: 2rem;
+    /* font-size: 2rem; */
     justify-content: center;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -19,7 +20,7 @@ h1{
 h1:hover{
     color: rgb(72, 1, 72);
     font-weight: bold;
-    font-size: 2rem;
+    /* font-size: 2rem; */
     justify-content: center;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -31,6 +32,7 @@ main section div p {
     line-height: 1.6;
     color: #333;
     font-family: 'Roboto', sans-serif;
+    margin-left: 10px;
 }
  main section img {
         border-radius: 16px;
