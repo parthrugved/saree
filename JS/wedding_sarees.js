@@ -109,7 +109,12 @@ function render_wedding() {
 
             ${isOut
           ? `<div class="bg-gray-400 text-white px-4 py-2 rounded-lg block text-center mt-3 cursor-not-allowed select-none">Buy Now</div>`
-          : `<a href="${whatsappURL}" target="_blank" class="bg-green-600 text-white px-4 py-2 rounded-lg block text-center mt-3">Buy Now</a>`
+          : `<a href="${whatsappURL}"
+                   target="_blank"
+                  class="block text-center mt-3 text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-200 dark:focus:ring-blue-800 px-4 py-2 rounded-lg">
+                  Buy Now
+                </a>
+`
         }
           </div>
         </div>

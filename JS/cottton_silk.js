@@ -68,7 +68,11 @@ function renderCottonSilk() {
 
             ${isOut
           ? `<div class="bg-gray-400 text-white px-4 py-2 rounded-lg block text-center mt-3 cursor-not-allowed select-none">Buy Now</div>`
-          : `<a href="${whatsappURL}" target="_blank" class="bg-green-600 text-white px-4 py-2 rounded-lg block text-center mt-3">Buy Now</a>`
+          : `<a href="${whatsappURL}" target="_blank"
+   class="block text-center mt-3 text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 px-4 py-2 rounded-lg">
+   Buy Now
+</a>
+`
         }
           </div>
         </div>
