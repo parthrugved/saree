@@ -43,7 +43,7 @@ My Github: https://github.com/parthrugved
 
 ### ⚡ Fast & Lightweight
 - No frameworks like React or Angular  
-- Pure HTML + TailwindCSS + Vanilla JS  
+- Pure HTML + CSS + TailwindCSS + Vanilla JS  
 - Loads fast even on slow connections  
 
 ---
