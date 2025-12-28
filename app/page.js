@@ -26,7 +26,7 @@ export default function Home() {
                 weave.
               </div>
             </div>
-            <div className="stats flex gap-4">
+            {/* <div className="stats flex gap-4">
               <div className="p-4 sm:w-1/2 lg:w-1/4 w-1/2">
                 <h2 className="title-font font-medium text-3xl text-gray-900">
                   Users
@@ -54,7 +54,7 @@ export default function Home() {
                 </h2>
                 <p className="leading-relaxed"></p>
               </div>
-            </div>
+            </div> */}
 
           </div>
 
