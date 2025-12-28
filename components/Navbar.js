@@ -108,7 +108,7 @@ export default function Navbar() {
         <Link href="/" onClick={() => setOpen(false)} className="block py-3 text-lg">Home</Link>
         <Link href="/about" onClick={() => setOpen(false)} className="block py-3 text-lg">About Us</Link>
         <Link href="/contact" onClick={() => setOpen(false)} className="block py-3 text-lg">Contact Us</Link>
-        <Link href="/coustemer_feedback" onClick={() => setOpen(false)} className="block py-3 text-lg">Customer Feedback</Link>
+        <Link href="/feedback" onClick={() => setOpen(false)} className="block py-3 text-lg">Customer Feedback</Link>
         <div className=" mt-46">
           MANAGE YOUR ACCOUNT
           <hr className="m-0 mt-48 absolute fixed" />
