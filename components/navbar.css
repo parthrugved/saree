@@ -1,0 +1,36 @@
+@keyframes slideRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideClose {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.menu-open {
+  animation: slideRight 0.3s ease forwards;
+}
+
+.menu-close {
+  animation: slideClose 0.3s ease forwards;
+}
+
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: white;
+  height: 120px;
+}
