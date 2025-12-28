@@ -1,4 +1,4 @@
-# SareeKraft 👗
+# SareeKraft 
 
 SareeKraft is a modern, fast, and SEO-optimized website for a **ready-to-wear saree business**, built for real-world use.  
 This project is developed for my **mother’s saree business** and also serves as a **portfolio project**.
