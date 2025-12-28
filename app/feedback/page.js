@@ -6,7 +6,14 @@ const Feedback = () => {
       "name": "Rajashree Ashtekar",
       "role": "Our Happy Customer",
       "stars": "⭐⭐⭐⭐⭐",
-      "text": "I ordered both a ready-to-wear saree and a traditional saree from Sareekraft. Both pieces are elegant, beautiful, and reasonably priced. The ready-to-wear saree was stitched perfectly to my size and delivered on time. I am very impressed with their prompt and high-quality service!",
+      "text": "I had ordered a ready to wear saree and purchased a normal saree form Sareekraft both the sarees are elegant and beautiful at reasonable prices. Ready to wear saree was stitched as per my size and delivered to me on time. very prompt and quality service.",
+      "img": "https://dummyimage.com/109x109"
+    },
+    {
+      "name": "Anagha Halbe",
+      "role": "Our Happy Customer",
+      "stars": "⭐⭐⭐⭐⭐",
+      "text": "The saree is so easy to wear. Liked it a lot. Makes life easy when wearing saree. Would definitely recommend.",
       "img": "https://dummyimage.com/109x109"
     },
     {
@@ -36,6 +43,13 @@ const Feedback = () => {
       "role": "Our Happy Customer",
       "stars": "⭐⭐⭐⭐⭐",
       "text": "Very beautiful collection of ready-to-wear sarees.",
+      "img": "https://dummyimage.com/109x109"
+    },
+    {
+      "name": "Taranga Joshi",
+      "role": "Our Happy Customer",
+      "stars": "⭐⭐⭐⭐⭐",
+      "text": "Nice collection",
       "img": "https://dummyimage.com/109x109"
     },
 
