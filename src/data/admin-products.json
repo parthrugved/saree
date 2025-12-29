@@ -1,0 +1,18 @@
+{
+  "casual_wear": [
+    {
+      "id": "casual-1",
+      "name": "Casual Saree Pink",
+      "price": 1499,
+      "img": "pink.webp"
+    }
+  ],
+  "net_sarees": [
+    {
+      "id": "net-1",
+      "name": "Red Net Saree",
+      "price": 2499,
+      "img": "red.webp"
+    }
+  ]
+}

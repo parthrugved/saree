@@ -42,7 +42,8 @@ const casual_wear = [
         name: "Everyday Elegance",
         price: "₹1500",
         code: "Code - CI5",
-        description: "Soft, flowy and breathable, this saree is perfect for casual brunches and daily wear."
+        description: "Soft, flowy and breathable, this saree is perfect for casual brunches and daily wear.",
+        stock: false
     },
     {
         type: "casual wear",
