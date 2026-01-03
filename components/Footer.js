@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="absolute -bottom-16 -left-16 w-40 h-40 bg-yellow-400 opacity-10 blur-3xl rounded-full"></div>
 
       <div className="container mx-auto px-5 text-center relative z-10">
-        <Link href="/page">
+        <Link href="/">
         <img
           className="logo opacity-90 hover:opacity-100 transition duration-300 mx-auto"
           src="/logo-dark.png"
@@ -27,11 +27,11 @@ const Footer = () => {
         </p>
 
         <div className="flex justify-center flex-wrap gap-6 text-sm mb-6">
-          <a href="index.html" className="f-link hover:text-white">Home</a>
-          <a href="shop.html" className="f-link hover:text-white">Shop</a>
-          <a href="about.html" className="f-link hover:text-white">About</a>
-          <a href="fee.html" className="f-link hover:text-white">Feedback</a>
-          <a href="form.html" className="f-link hover:text-white">Contact</a>
+          <Link href="/" className="f-link hover:text-white">Home</Link>
+          <Link href="/shop" className="f-link hover:text-white">Shop</Link>
+          <Link href="/about" className="f-link hover:text-white">About</Link>
+          <Link href="/feedback" className="f-link hover:text-white">Feedback</Link>
+          <Link href="/contact" className="f-link hover:text-white">Contact</Link>
         </div>
 
         <p className="text-gray-500 text-xs tracking-wide">

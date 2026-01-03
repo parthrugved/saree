@@ -1,18 +1,372 @@
 {
   "casual_wear": [
     {
-      "id": "casual-1",
-      "name": "Casual Saree Pink",
-      "price": 1499,
-      "img": "pink.webp"
+      "id": "ci1",
+      "type": "casual wear",
+      "img": "ci1.webp",
+      "name": "Everyday Elegance",
+      "price": 1600,
+      "code": "CI1",
+      "description": "Lightweight and easy to carry, this casual saree adds a subtle sparkle to your everyday look."
+      
+    },
+    {
+      "id": "ci2",
+      "type": "casual wear",
+      "img": "ci2.webp",
+      "name": "Everyday Elegance",
+      "price": 1600,
+      "code": "CI2",
+      "description": "Lightweight and easy to carry, this casual saree adds a subtle sparkle to your everyday look.",
+      "stock": false
+    },
+    {
+      "id": "ci3",
+      "type": "casual wear",
+      "img": "ci3.webp",
+      "name": "Everyday Elegance",
+      "price": 1500,
+      "code": "CI3",
+      "description": "A dreamy casual saree with gentle tones that make it ideal for relaxed outings and get-togethers.",
+      "stock": false
+    },
+    {
+      "id": "ci4",
+      "type": "casual wear",
+      "img": "ci4.webp",
+      "name": "Everyday Elegance",
+      "price": 1500,
+      "code": "CI4",
+      "description": "A stylish casual saree with a graceful fall, designed for comfort and all-day wear.",
+      "stock": false
+    },
+    {
+      "id": "ci5",
+      "type": "casual wear",
+      "img": "ci5.webp",
+      "name": "Everyday Elegance",
+      "price": 1500,
+      "code": "CI5",
+      "description": "Soft, flowy and breathable, this saree is perfect for casual brunches and daily wear.",
+      "stock": false
+    },
+    {
+      "id": "ci6",
+      "type": "casual wear",
+      "img": "ci6.webp",
+      "name": "Everyday Elegance",
+      "price": 1500,
+      "code": "CI6",
+      "description": "A light and comfortable saree that brings a hint of elegance to your everyday wardrobe."
+      
+    },
+    {
+      "id": "ci7",
+      "type": "casual wear",
+      "img": "ci7.webp",
+      "name": "Everyday Elegance",
+      "price": 1500,
+      "code": "CI7",
+      "description": "An easygoing saree with a simple yet classy look, ideal for office and casual meets."
+      
+    },
+    {
+      "id": "ci8",
+      "type": "casual wear",
+      "img": "ci8.webp",
+      "name": "Everyday Elegance",
+      "price": 1500,
+      "code": "CI8",
+      "description": "A versatile casual saree that pairs beautifully with minimal jewelry for a neat, polished look."
+      
+    },
+    {
+      "id": "ci9",
+      "type": "casual wear",
+      "img": "ci9.webp",
+      "name": "Everyday Elegance",
+      "price": 1200,
+      "code": "CI9",
+      "description": "Budget-friendly and stylish, this saree is perfect for regular use without compromising on charm."
+      
+    },
+    {
+      "id": "ci10",
+      "type": "casual wear",
+      "img": "ci10.webp",
+      "name": "Everyday Elegance",
+      "price": 1200,
+      "code": "CI10",
+      "description": "A soft, comfortable saree with a subtle design, ideal for daily errands and casual gatherings."
+      
+    },
+    {
+      "id": "ci11",
+      "type": "casual wear",
+      "img": "ci11.webp",
+      "name": "Everyday Elegance",
+      "price": 1200,
+      "code": "CI11",
+      "description": "A graceful casual saree that offers a clean, refined look for everyday wear."
+      
+    },
+    {
+      "id": "ci12",
+      "type": "casual wear",
+      "img": "ci12.webp",
+      "name": "Everyday Elegance",
+      "price": 1599,
+      "code": "CI12",
+      "description": "A slightly premium casual saree with a smooth fall, great for kitty parties and small functions."
+    
+    },
+    {
+      "id": "ci13",
+      "type": "casual wear",
+      "img": "ci13.webp",
+      "name": "Everyday Elegance",
+      "price": 1599,
+      "code": "CI13",
+      "description": "A smart and elegant casual saree that balances everyday comfort with a touch of sophistication.",
+      "stock": false
     }
   ],
-  "net_sarees": [
+
+  
+  "cotton_sarees": [
     {
-      "id": "net-1",
-      "name": "Red Net Saree",
+      "id": "co1",
+      "type": "cotton sarees",
+      "img": "c (1).webp",
+      "name": "Pure Comfort",
+      "price": 1200,
+      "code": "CO1",
+      "description": "Pure cotton comfort saree, perfect for hot days and everyday office wear.",
+      "stock": true
+    },
+    {
+      "id": "co2",
+      "type": "cotton sarees",
+      "img": "c (2).webp",
+      "name": "Pure Comfort",
+      "price": 2399,
+      "code": "CO2",
+      "description": "Premium cotton saree with rich detailing, ideal for festive days and special meetings.",
+      "stock": true
+    },
+    {
+      "id": "co3",
+      "type": "cotton sarees",
+      "img": "c (3).webp",
+      "name": "Pure Comfort",
+      "price": 1200,
+      "code": "CO3",
+      "description": "Soft, breathable cotton saree that keeps you cool and stylish all day long.",
+      "stock": true
+    },
+    {
+      "id": "co4",
+      "type": "cotton sarees",
+      "img": "c (4).webp",
+      "name": "Pure Comfort",
+      "price": 1200,
+      "code": "CO4",
+      "description": "Lightweight cotton saree with a neat finish, perfect for school or college functions.",
+      "stock": false
+    },
+    {
+      "id": "co5",
+      "type": "cotton sarees",
+      "img": "c (5).webp",
+      "name": "Pure Comfort",
+      "price": 2399,
+      "code": "CO5",
+      "description": "Elegant cotton saree with a slightly grand look, great for poojas and family gatherings.",
+      "stock": true
+    },
+    {
+      "id": "co6",
+      "type": "cotton sarees",
+      "img": "c (6).webp",
+      "name": "Pure Comfort",
+      "price": 2399,
+      "code": "CO6",
+      "description": "Classic cotton saree with a refined design for a sophisticated, everyday ethnic look.",
+      "stock": true
+    },
+    {
+      "id": "co7",
+      "type": "cotton sarees",
+      "img": "c (7).webp",
+      "name": "Pure Comfort",
+      "price": 2399,
+      "code": "CO7",
+      "description": "Rich cotton weave saree that offers both comfort and a graceful, traditional appeal.",
+      "stock": true
+    },
+    {
+      "id": "co8",
+      "type": "cotton sarees",
+      "img": "c (8).webp",
+      "name": "Pure Comfort",
       "price": 2499,
-      "img": "red.webp"
+      "code": "CO8",
+      "description": "Soft, high-quality cotton saree ideal for long hours of wear at work or social events.",
+      "stock": true
+    },
+    {
+      "id": "co9",
+      "type": "cotton sarees",
+      "img": "c (9).webp",
+      "name": "Pure Comfort",
+      "price": 2499,
+      "code": "CO9",
+      "description": "Beautifully woven cotton saree that blends daily comfort with a festive touch.",
+      "stock": true
+    },
+    {
+      "id": "co10",
+      "type": "cotton sarees",
+      "img": "c (10).webp",
+      "name": "Pure Comfort",
+      "price": 2499,
+      "code": "CO10",
+      "description": "A versatile cotton saree that looks equally good for office, temple visits and casual outings.",
+      "stock": true
+    },
+    {
+      "id": "co11",
+      "type": "cotton sarees",
+      "img": "c (11).webp",
+      "name": "Pure Comfort",
+      "price": 2200,
+      "code": "CO11",
+      "description": "Easy-to-drape cotton saree with a soothing look, perfect for everyday elegance.",
+      "stock": true
+    },
+    {
+      "id": "co12",
+      "type": "cotton sarees",
+      "img": "c (12).webp",
+      "name": "Pure Comfort",
+      "price": 2200,
+      "code": "CO12",
+      "description": "Comfortable cotton saree designed for regular use with a simple, classy feel.",
+      "stock": true
+    },
+    {
+      "id": "co13",
+      "type": "cotton sarees",
+      "img": "c (13).webp",
+      "name": "Pure Comfort",
+      "price": 2200,
+      "code": "CO13",
+      "description": "A graceful cotton saree that gives a neat, traditional appearance for day-to-day wear.",
+      "stock": true
+    },
+    {
+      "id": "co14",
+      "type": "cotton sarees",
+      "img": "c (14).webp",
+      "name": "Pure Comfort",
+      "price": 2200,
+      "code": "CO14",
+      "description": "Soft-touch cotton saree with a clean design, ideal for minimal, elegant styling.",
+      "stock": true
+    },
+    {
+      "id": "co15",
+      "type": "cotton sarees",
+      "img": "c (15).webp",
+      "name": "Pure Comfort",
+      "price": 1499,
+      "code": "CO15",
+      "description": "Budget-friendly cotton saree offering comfort, breathability and a timeless look.",
+      "stock": true
+    },
+    {
+      "id": "co16",
+      "type": "cotton sarees",
+      "img": "c (16).webp",
+      "name": "Pure Comfort",
+      "price": 1299,
+      "code": "CO16",
+      "description": "Light, airy cotton saree perfect for summer days and casual family functions.",
+      "stock": false
+    },
+    {
+      "id": "co17",
+      "type": "cotton sarees",
+      "img": "c (17).webp",
+      "name": "Pure Comfort",
+      "price": 1299,
+      "code": "CO17",
+      "description": "Everyday cotton saree with a simple pattern that pairs well with contrast blouses.",
+      "stock": true
+    },
+    {
+      "id": "co18",
+      "type": "cotton sarees",
+      "img": "c (18).webp",
+      "name": "Pure Comfort",
+      "price": 1299,
+      "code": "CO18",
+      "description": "A classic cotton saree that is easy to maintain and perfect for daily use.",
+      "stock": false
+    },
+    {
+      "id": "co19",
+      "type": "cotton sarees",
+      "img": "c (19).webp",
+      "name": "Pure Comfort",
+      "price": 1299,
+      "code": "CO19",
+      "description": "Comfort-first cotton saree that keeps you cool while looking effortlessly traditional.",
+      "stock": true
+    },
+    {
+      "id": "co20",
+      "type": "cotton sarees",
+      "img": "c (20).webp",
+      "name": "Pure Comfort",
+      "price": 1299,
+      "code": "CO20",
+      "description": "Soft cotton drape ideal for teachers, working women and daily errands.",
+      "stock": true
+    },
+    {
+      "id": "co21",
+      "type": "cotton sarees",
+      "img": "c (21).webp",
+      "name": "Pure Comfort",
+      "price": 1299,
+      "code": "CO21",
+      "description": "A charming cotton saree with a subtle look, perfect for homely and casual occasions.",
+      "stock": true
+    },
+    {
+      "id": "co22",
+      "type": "cotton sarees",
+      "img": "c (22).webp",
+      "name": "Pure Comfort",
+      "price": 1299,
+      "code": "CO22",
+      "description": "Breathable cotton saree designed for all-day comfort in any season.",
+      "stock": true
+    },
+    {
+      "id": "co23",
+      "type": "cotton sarees",
+      "img": "c (23).webp",
+      "name": "Pure Comfort",
+      "price": 1299,
+      "code": "CO23",
+      "description": "Simple yet elegant cotton saree that suits both everyday use and small functions.",
+      "stock": true
     }
   ]
 }
+
+
+  
+
