@@ -1,12 +1,13 @@
 "use client";
 import data from "@/src/data/admin-products.json";
-
+import Link from "next/link";
 import Script from "next/script";
 import "./shop.css";
 
 export default function ShopClient() {
     return (
         <>
+            <div className="top"></div>
             <main>
                 <section>
                     <ul>
@@ -121,13 +122,16 @@ export default function ShopClient() {
 
                                 </section>
                                 <Script src="/products/wedding_sarees.js" strategy="afterInteractive" />
+                                
+                                <a href="#top" className="bg-blue-500 text-[15px] p-3 text-white rounded-lg items-center justify-center flex w-[150px] text-center mx-auto">Scroll To Top</a>
                             </details>
                         </li>
                     </ul>
                 </section>
-
-
             </main>
+            {/* <Link href="#top">
+                                    <button type="button" className=" items-center text-center flex mx-auto bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">Scroll To Top</button>
+            </Link> */}
 
         </>
     );
