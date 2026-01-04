@@ -29,7 +29,7 @@ export default function Navbar() {
           <img
             src="/logo.png"
             alt="logo"
-            width={100}
+            width={70}
             style={{ cursor: "pointer" }}
           />
         </Link>
