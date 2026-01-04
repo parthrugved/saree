@@ -14,7 +14,7 @@ const Footer = () => {
 
       <div className="container mx-auto px-5 text-center relative z-10">
         <Link href="/">
-        <img
+        <img style={{ cursor: "pointer", borderRadius: '10px' }}
           className="logo opacity-90 hover:opacity-100 transition duration-300 mx-auto"
           src="/logo-dark.png"
           alt="SareeKraft Logo"

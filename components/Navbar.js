@@ -26,11 +26,11 @@ export default function Navbar() {
 
         {/* LOGO */}
         <Link href="/" className="flex title-font font-medium items-center text-gray-900">
-          <img
+          <img 
             src="/logo.png"
             alt="logo"
             width={70}
-            style={{ cursor: "pointer" }}
+            style={{ cursor: "pointer", borderRadius: '10px' }}
           />
         </Link>
 
