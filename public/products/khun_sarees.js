@@ -19,7 +19,8 @@ const khun_sarees = [
     name: "Heritage Weave",
     price: "₹1499",
     code: "KS3",
-    description: "Vibrant khan saree with a royal look, ideal for haldi, pujas and family events."
+    description: "Vibrant khan saree with a royal look, ideal for haldi, pujas and family events.",
+    stock: false
   }, {
     type: "khan sarees",
     img: "khan (4).webp",
@@ -33,7 +34,8 @@ const khun_sarees = [
     name: "Heritage Weave",
     price: "₹1499",
     code: "KS5",
-    description: "Graceful khan saree that combines traditional patterns with everyday comfort."
+    description: "Graceful khan saree that combines traditional patterns with everyday comfort.",
+    stock: false
   },
 
 ];

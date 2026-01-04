@@ -17,25 +17,25 @@ const casual_wear = [
         description: "Lightweight and easy to carry, this casual saree adds a subtle sparkle to your everyday look.",
         stock: false
     },
-    {
-        type: "casual wear",
-        img: "ci3.webp",
-        name: "Everyday Elegance",
-        price: "₹1500",
-        code: "Code - CI3",
-        description: "A dreamy casual saree with gentle tones that make it ideal for relaxed outings and get-togethers.",
-        stock: false
+    // {
+    //     type: "casual wear",
+    //     img: "ci3.webp",
+    //     name: "Everyday Elegance",
+    //     price: "₹1500",
+    //     code: "Code - CI3",
+    //     description: "A dreamy casual saree with gentle tones that make it ideal for relaxed outings and get-togethers.",
+    //     stock: false
 
-    },
-    {
-        type: "casual wear",
-        img: "ci4.webp",
-        name: "Everyday Elegance",
-        price: "₹1500",
-        code: "Code - CI4",
-        description: "A stylish casual saree with a graceful fall, designed for comfort and all-day wear.",
-        stock: false
-    },
+    // },
+    // {
+    //     type: "casual wear",
+    //     img: "ci4.webp",
+    //     name: "Everyday Elegance",
+    //     price: "₹1500",
+    //     code: "Code - CI4",
+    //     description: "A stylish casual saree with a graceful fall, designed for comfort and all-day wear.",
+    //     stock: false
+    // },
     {
         type: "casual wear",
         img: "ci5.webp",
@@ -59,7 +59,8 @@ const casual_wear = [
         name: "Everyday Elegance",
         price: "₹1500",
         code: "Code - CI7",
-        description: "An easygoing saree with a simple yet classy look, ideal for office and casual meets."
+        description: "An easygoing saree with a simple yet classy look, ideal for office and casual meets.",
+        stock: false
     },
 
     {

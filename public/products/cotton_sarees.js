@@ -20,15 +20,17 @@ const cotton_sarees = [
     price: "₹1200",
     code: "CO3",
     description: "Soft, breathable cotton saree that keeps you cool and stylish all day long."
-  }, {
-    type: "cotton sarees",
-    img: "c (4).webp",
-    name: "Pure Comfort",
-    price: "₹1200",
-    code: "CO4",
-    description: "Lightweight cotton saree with a neat finish, perfect for school or college functions.",
-    stock: false
-  }, {
+  }, 
+  // {
+  //   type: "cotton sarees",
+  //   img: "c (4).webp",
+  //   name: "Pure Comfort",
+  //   price: "₹1200",
+  //   code: "CO4",
+  //   description: "Lightweight cotton saree with a neat finish, perfect for school or college functions.",
+  //   stock: false
+  // },
+   {
     type: "cotton sarees",
     img: "c (5).webp",
     name: "Pure Comfort",
@@ -106,7 +108,8 @@ const cotton_sarees = [
     name: "Pure Comfort",
     price: "₹1499",
     code: "CO15",
-    description: "Budget-friendly cotton saree offering comfort, breathability and a timeless look."
+    description: "Budget-friendly cotton saree offering comfort, breathability and a timeless look.",
+    stock: false
   }, {
     type: "cotton sarees",
     img: "c (16).webp",
@@ -121,7 +124,8 @@ const cotton_sarees = [
     name: "Pure Comfort",
     price: "₹1299",
     code: "CO17",
-    description: "Everyday cotton saree with a simple pattern that pairs well with contrast blouses."
+    description: "Everyday cotton saree with a simple pattern that pairs well with contrast blouses.",
+    stock: false
   }, {
     type: "cotton sarees",
     img: "c (18).webp",
@@ -143,7 +147,8 @@ const cotton_sarees = [
     name: "Pure Comfort",
     price: "₹1299",
     code: "CO20",
-    description: "Soft cotton drape ideal for teachers, working women and daily errands."
+    description: "Soft cotton drape ideal for teachers, working women and daily errands.",
+    stock: false
   },
   {
     type: "cotton sarees",
@@ -158,7 +163,8 @@ const cotton_sarees = [
     name: "Pure Comfort",
     price: "₹1299",
     code: "CO22",
-    description: "Breathable cotton saree designed for all-day comfort in any season."
+    description: "Breathable cotton saree designed for all-day comfort in any season.",
+    stock: false
   },
   {
     type: "cotton sarees",
