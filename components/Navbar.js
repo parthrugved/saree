@@ -110,8 +110,9 @@ export default function Navbar() {
         <Link href="/contact" onClick={() => setOpen(false)} className="block py-3 text-lg">Contact Us</Link>
         <Link href="/feedback" onClick={() => setOpen(false)} className="block py-3 text-lg">Customer Feedback</Link>
         <div className=" mt-46">
+          < div className="bg-purple-900 h-1 opacity-10"></div>
           MANAGE YOUR ACCOUNT
-          <hr className="m-0 mt-48 absolute fixed" />
+        
         </div>
 
 
@@ -130,9 +131,13 @@ export default function Navbar() {
             </SignUpButton>
           </SignedOut>
           <SignedIn>
-            <div className="w-10 h-10 flex items-center justify-center">
-              <UserButton />
-            </div>
+            <button
+                  type="button"
+                  className="flex items-center justify-center gap-2 text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-md text-sm px-4 py-2.5 text-center leading-5 w-48 h-10"
+                >
+                  <span>Welcome {user?.firstName ?? user?.username ?? user?.fullName}</span>
+                  <UserButton />
+                </button>
           </SignedIn>
         </div>
       </div>

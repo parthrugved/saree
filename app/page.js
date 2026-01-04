@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export const metadata = {
   title: "Home | SareeKraft",
@@ -167,10 +168,16 @@ Please confirm availability.`
                   </div>
                 </div>
               </div>
+              
             ))}
           </div>
         </div>
       </section>
+      <div>
+        <Link href="/feedback">
+        <button type="button" className=" items-center text-center flex mx-auto bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">View More Reviewes</button>
+        </Link>
+      </div>
     </>
   );
 }
