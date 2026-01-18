@@ -102,7 +102,8 @@ const casual_wear = [
         name: "Everyday Elegance",
         price: "₹1599",
         code: "Code - CI12",
-        description: "A slightly premium casual saree with a smooth fall, great for kitty parties and small functions."
+        description: "A slightly premium casual saree with a smooth fall, great for kitty parties and small functions.",
+        stock: false
     },
 
     {

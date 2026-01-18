@@ -5,7 +5,8 @@ const desiginer_sarees = [
     name: "Designer Collection",
     price: "₹2200",
     code: "DS1",
-    description: "A stylish designer saree with a modern touch, perfect for parties and evening events."
+    description: "A stylish designer saree with a modern touch, perfect for parties and evening events.",
+    stock: false
   },
   {
     type: "designer sarees",

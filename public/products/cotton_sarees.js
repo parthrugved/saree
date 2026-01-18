@@ -140,7 +140,8 @@ const cotton_sarees = [
     name: "Pure Comfort",
     price: "₹1299",
     code: "CO19",
-    description: "Comfort-first cotton saree that keeps you cool while looking effortlessly traditional."
+    description: "Comfort-first cotton saree that keeps you cool while looking effortlessly traditional.",
+    stock: false
   }, {
     type: "cotton sarees",
     img: "c (20).webp",
@@ -156,7 +157,8 @@ const cotton_sarees = [
     name: "Pure Comfort",
     price: "₹1299",
     code: "CO21",
-    description: "A charming cotton saree with a subtle look, perfect for homely and casual occasions."
+    description: "A charming cotton saree with a subtle look, perfect for homely and casual occasions.",
+    stock: false 
   }, {
     type: "cotton sarees",
     img: "c (22).webp",

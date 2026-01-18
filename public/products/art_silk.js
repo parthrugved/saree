@@ -13,7 +13,8 @@ const artSilk_sarees = [
         name: "Destroyer Art",
         price: "₹1299",
         code: "ART2",
-        description: "Sheer net saree with a delicate look, perfect for parties and evening outings."
+        description: "Sheer net saree with a delicate look, perfect for parties and evening outings.",
+        stock: false
     },
     {
         type: "art silk",

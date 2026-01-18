@@ -6,7 +6,8 @@ const cotton_silk = [
     name: "Pure Comfort",
     price: "₹1999",
     code: "COS1",
-    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions.",
+    stock: false 
 
   },
 

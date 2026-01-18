@@ -18,7 +18,7 @@ import { toast } from 'react-hot-toast';
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const { user, isLoaded, isSignedIn } = useUser();
-  
+
 
   return (
     <header className="text-gray-600 body-font navbar-fixed">
@@ -26,7 +26,7 @@ export default function Navbar() {
 
         {/* LOGO */}
         <Link href="/" className="flex title-font font-medium items-center text-gray-900">
-          <img 
+          <img
             src="/logo.png"
             alt="logo"
             width={70}
@@ -41,7 +41,8 @@ export default function Navbar() {
           <Link href="/about" className="mr-5 hover:text-gray-900">About Us</Link>
           <Link href="/contact" className="mr-5 hover:text-gray-900">Contact Us</Link>
           <Link href="/feedback" className="mr-5 hover:text-gray-900">Customer Feedback</Link>
-          <div className="auth ml-480 fixed flex gap-4">
+          <Link href="/exhibition" className="mr-5 hover:text-gray-900">Exhibition</Link>
+          <div className="auth ml-475 fixed flex gap-4">
             <div className="flex items-center justify-center">
               <SignedIn>
 
@@ -109,10 +110,11 @@ export default function Navbar() {
         <Link href="/about" onClick={() => setOpen(false)} className="block py-3 text-lg">About Us</Link>
         <Link href="/contact" onClick={() => setOpen(false)} className="block py-3 text-lg">Contact Us</Link>
         <Link href="/feedback" onClick={() => setOpen(false)} className="block py-3 text-lg">Customer Feedback</Link>
+        <Link href="/exhibition" onClick={() => setOpen(false)} className="block py-3 text-lg">Exhibition</Link>
         <div className=" mt-46">
           < div className="bg-purple-900 h-1 opacity-10"></div>
           MANAGE YOUR ACCOUNT
-        
+
         </div>
 
 
@@ -132,12 +134,12 @@ export default function Navbar() {
           </SignedOut>
           <SignedIn>
             <button
-                  type="button"
-                  className="flex items-center justify-center gap-2 text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-md text-sm px-4 py-2.5 text-center leading-5 w-48 h-10"
-                >
-                  <span>Welcome {user?.firstName ?? user?.username ?? user?.fullName}</span>
-                  <UserButton />
-                </button>
+              type="button"
+              className="flex items-center justify-center gap-2 text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-medium rounded-md text-sm px-4 py-2.5 text-center leading-5 w-48 h-10"
+            >
+              <span>Welcome {user?.firstName ?? user?.username ?? user?.fullName}</span>
+              <UserButton />
+            </button>
           </SignedIn>
         </div>
       </div>
