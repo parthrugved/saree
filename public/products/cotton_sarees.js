@@ -176,7 +176,255 @@ const cotton_sarees = [
     code: "CO23",
     description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
   },
-
+{
+    type: "cotton sarees",
+    img: "c (24).webp",
+    name: "Pure Comfort",
+    price: "₹1299",
+    code: "CO24",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (25).webp",
+    name: "Pure Comfort",
+    price: "₹1299",
+    code: "CO25",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (25).webp",
+    name: "Pure Comfort",
+    price: "₹1299",
+    code: "CO25",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (26).webp",
+    name: "Pure Comfort",
+    price: "₹1299",
+    code: "CO26",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (27).webp",
+    name: "Pure Comfort",
+    price: "₹1299",
+    code: "CO27",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (28).webp",
+    name: "Pure Comfort",
+    price: "₹1299",
+    code: "CO28",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (29).webp",
+    name: "Pure Comfort",
+    price: "₹1299",
+    code: "CO29",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (30).webp",
+    name: "Pure Comfort",
+    price: "₹1299",
+    code: "CO30",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (31).webp",
+    name: "Pure Comfort",
+    price: "₹1299",
+    code: "CO31",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (32).webp",
+    name: "Pure Comfort",
+    price: "₹1299",
+    code: "CO32 ",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (33).webp",
+    name: "Pure Comfort",
+    price: "₹1299",
+    code: "CO33",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (34).webp",
+    name: "Pure Comfort",
+    price: "₹1299",
+    code: "CO34",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (35).webp",
+    name: "Pure Comfort",
+    price: "₹1299",
+    code: "CO35",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (36).webp",
+    name: "Pure Comfort",
+    price: "₹1299",
+    code: "CO36",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (37).webp",
+    name: "Pure Comfort",
+    price: "₹1299",
+    code: "CO37",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (38).webp",
+    name: "Pure Comfort",
+    price: "₹1299",
+    code: "CO38",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (39).webp",
+    name: "Pure Comfort",
+    price: "₹1299",
+    code: "CO39",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (40).webp",
+    name: "Pure Comfort",
+    price: "₹1299",
+    code: "CO40",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (41).webp",
+    name: "Pure Comfort",
+    price: "₹1299",
+    code: "CO41",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (42).webp",
+    name: "Pure Comfort",
+    price: "₹1299",
+    code: "CO42",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions.",
+    stock: false
+  },
+  {
+    type: "cotton sarees",
+    img: "c (43).webp",
+    name: "Pure Comfort",
+    price: "₹1299",
+    code: "CO43",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (44).webp",
+    name: "Pure Comfort",
+    price: "₹1299",
+    code: "CO44",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (45).webp",
+    name: "Pure Comfort",
+    price: "₹1299",
+    code: "CO45",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (46).webp",
+    name: "Pure Comfort",
+    price: "₹1299",
+    code: "CO46",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (47).webp",
+    name: "Pure Comfort",
+    price: "₹1299",
+    code: "CO47",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (48).webp",
+    name: "Pure Comfort",
+    price: "₹1299",
+    code: "CO48",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (49).webp",
+    name: "Pure Comfort",
+    price: "₹1299",
+    code: "CO49",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (50).webp",
+    name: "Pure Comfort",
+    price: "₹1299",
+    code: "CO50",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+   {
+    type: "cotton sarees",
+    img: "c (51).webp",
+    name: "Pure Comfort",
+    price: "₹1299",
+    code: "CO51",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+   {
+    type: "cotton sarees",
+    img: "c (52).webp",
+    name: "Pure Comfort",
+    price: "₹1299",
+    code: "CO52",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+   {
+    type: "cotton sarees",
+    img: "c (53).webp",
+    name: "Pure Comfort",
+    price: "₹1299",
+    code: "CO53",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
 ];
 
 // 🪄 Reference to single container (id only) and deferred render
