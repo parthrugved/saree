@@ -105,7 +105,6 @@ const casual_wear = [
         description: "A slightly premium casual saree with a smooth fall, great for kitty parties and small functions.",
         stock: false
     },
-
     {
         type: "casual wear",
         img: "ci13.webp",
@@ -114,6 +113,14 @@ const casual_wear = [
         code: "Code - CI13",
         description: "A smart and elegant casual saree that balances everyday comfort with a touch of sophistication.",
         stock: false
+    },
+    {
+        type: "casual wear",
+        img: "ci14.webp",
+        name: "Everyday Elegance",
+        price: "₹1199",
+        code: "Code - CI14",
+        description: "A smart and elegant casual saree that balances everyday comfort with a touch of sophistication."
     },
 ];
 

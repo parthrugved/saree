@@ -110,6 +110,19 @@ export default function ShopClient() {
                                 <Script src="/products/net_sarees.js" strategy="afterInteractive" />
                             </details>
                         </li>
+                      <li>
+                        <details>
+                            <summary>Dola Silk</summary>
+                            <section className="text-gray-600 body-font">
+                                <div className="container px-5 py-24 mx-auto">
+                                    <div id="product-container-dola_silk" className="flex flex-wrap -m-4">
+
+                                    </div>
+                                </div>
+                            </section>
+                            <Script src="/products/dola_silk.js" strategy="afterInteractive" />
+                        </details>
+                      </li>
                         <li>
                             <details>
                                 <summary>Wedding Sarees</summary>
