@@ -50,7 +50,8 @@ const cotton_sarees = [
     name: "Pure Comfort",
     price: "₹2399",
     code: "CO7",
-    description: "Rich cotton weave saree that offers both comfort and a graceful, traditional appeal."
+    description: "Rich cotton weave saree that offers both comfort and a graceful, traditional appeal.",
+    stock: false
   },
   {
     type: "cotton sarees",
@@ -423,6 +424,62 @@ const cotton_sarees = [
     name: "Pure Comfort",
     price: "₹1499",
     code: "CO53",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (54).webp",
+    name: "Pure Comfort",
+    price: "₹1599",
+    code: "CO54",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (55).webp",
+    name: "Pure Comfort",
+    price: "₹1599",
+    code: "CO55",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (56).webp",
+    name: "Pure Comfort",
+    price: "₹1599",
+    code: "CO56",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (57).webp",
+    name: "Pure Comfort",
+    price: "₹1599",
+    code: "CO57",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (58).webp",
+    name: "Pure Comfort",
+    price: "₹1599",
+    code: "CO58",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (59).webp",
+    name: "Pure Comfort",
+    price: "₹1599",
+    code: "CO59",
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+  },
+  {
+    type: "cotton sarees",
+    img: "c (60).webp",
+    name: "Pure Comfort",
+    price: "₹1599",
+    code: "CO60",
     description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
   },
 ];

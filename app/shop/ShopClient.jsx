@@ -10,8 +10,8 @@ export default function ShopClient() {
             <div className="top"></div>
             <main>
                 <section>
-                    <ul>
-                        <li>
+                    <ul className="">
+                        <li className="">
 
                             {/* Casual Wear */}
                             <section className="text-gray-600 body-font">
@@ -26,7 +26,7 @@ export default function ShopClient() {
 
                         </li>
 
-                        <li>
+                        <li className="">
 
                             {/* Cotton Sarees */}
                             <section className="text-gray-600 body-font">
@@ -40,7 +40,7 @@ export default function ShopClient() {
                             <Script src="/products/cotton_sarees.js" strategy="afterInteractive" />
 
                         </li>
-                        <li>
+                        <li className="">
 
                             {/* Cotton Silk */}
                             <section className="text-gray-600 body-font">
@@ -52,6 +52,20 @@ export default function ShopClient() {
 
                             </section>
                             <Script src="/products/cotton_silk.js" strategy="afterInteractive" />
+
+                        </li>
+                        <li>
+
+                            {/*  Silk */}
+                            <section className="text-gray-600 body-font">
+                                <div className="container px-5 py-24 mx-auto">
+                                    <div id="product-container-silk" className="flex flex-wrap -m-4">
+
+                                    </div>
+                                </div>
+
+                            </section>
+                            <Script src="/products/silk.js" strategy="afterInteractive" />
 
                         </li>
                         <li>
