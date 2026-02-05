@@ -147,39 +147,53 @@ if (!container) {
         const isOut = item.stock === false;
 
         const card = `
-      <div class="lg:w-1/4 md:w-1/2 p-4 w-full relative">
+<section class="relative flex flex-col border border-gray-200 rounded-lg overflow-hidden bg-white shadow-sm hover:shadow-lg transition-all duration-300">
+       ${isOut ? `
+            <span class="absolute z-10 top-2 left-2 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded hover:cursor-pointer">
+              OUT OF STOCK
+            </span>` : ''}
 
-        ${isOut ? `
-          <span class="absolute z-10 top-2 left-2 bg-red-600 text-white text-xs font-bold px-2 py-1 rounded hover:cursor-pointer">
-            OUT OF STOCK
-          </span>` : ""}
+            <div class="w-full aspect-3/4">
+            <a href="#">
+             <img class="w-full h-full object-cover" src="/webp_images/${encodeURIComponent(item.type)}/${item.img}" alt="${item.name}" />
+             </a>
+            </div>
 
-        <a class="block relative h-150 rounded overflow-hidden">
-          <img alt="${item.name}" class="object-cover object-center w-full h-full block" src="/webp_images/${encodeURIComponent(item.type)}/${item.img}">
-        </a>
+            <div class="p-4 flex flex-col grow">
+        <h2 class="text-sm md:text-base font-semibold text-gray-800 mb-2">
+            ${item.name}
+        </h2>
 
-        <div class="mt-4">
-          <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">${item.code}</h3>
-          <h2 class="text-gray-900 title-font text-lg font-semibold">${item.name}</h2>
-          <p class="text-gray-700 text-sm leading-snug mt-1">${item.description}</p>
-          <p class="mt-2 text-base font-semibold text-gray-900">${item.price}</p>
+        <div class="flex items-center gap-2 mt-auto">
+          <span class="text-lg font-bold text-red-700">
+            ${item.price}
+          </span>
+          <span class="text-gray-400 line-through text-sm">
+            ₹ 4,791
+          </span>
+          <span class="bg-red-100 text-red-700 font-semibold px-2 py-0.5 rounded text-xs">
+            79% OFF
+          </span>
+        </div>
 
-          ${isOut
-                ? `<div class="bg-gray-400 text-white px-4 py-2 rounded-lg block text-center mt-3 cursor-not-allowed select-none">
-                    Buy Now
-                 </div>`
-                : `      <a href="${whatsappURL}"
-                   target="_blank"
-                  class="block text-center mt-3 text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-200 dark:focus:ring-blue-800 px-4 py-2 rounded-lg">
-                  Buy Now
-                </a>
-
+            ${isOut
+                    ? `<div class="bg-gray-400 text-white px-4 py-2 rounded-lg block text-center mt-3 cursor-not-allowed select-none">Buy Now</div>`
+                    : `<a href="${whatsappURL}" target="_blank"
+   class="block text-center mt-3 text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 px-4 py-2 rounded-lg">
+   Buy Now
+</a>
 `
-            }
+                }
+
+
+                <div class="mt-2 flex items-center text-sm">
+          <span class="text-yellow-500">★★★★★</span>
+          <span class="ml-2 text-gray-500">(12)</span>
         </div>
       </div>
-    `;
-
+     
+        </section>
+      `;
         container.insertAdjacentHTML("beforeend", card);
     });
 }

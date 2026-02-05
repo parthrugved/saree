@@ -16,7 +16,7 @@ export default function ShopClient() {
                             {/* Casual Wear */}
                             <section className="text-gray-600 body-font">
                                 <div className="container px-5 py-24 mx-auto">
-                                    <div id="product-container-casual" className="flex flex-wrap -m-4">
+                                    <div id="product-container-casual" className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
 
                                     </div>
                                 </div>
@@ -31,7 +31,7 @@ export default function ShopClient() {
                             {/* Cotton Sarees */}
                             <section className="text-gray-600 body-font">
                                 <div className="container px-5 py-24 mx-auto">
-                                    <div id="product-container-cotton" className="flex flex-wrap -m-4">
+                                    <div id="product-container-cotton" className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
 
                                     </div>
                                 </div>
@@ -45,7 +45,7 @@ export default function ShopClient() {
                             {/* Cotton Silk */}
                             <section className="text-gray-600 body-font">
                                 <div className="container px-5 py-24 mx-auto">
-                                    <div id="product-container-cotton_silk" className="flex flex-wrap -m-4">
+                                    <div id="product-container-cotton_silk" className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
 
                                     </div>
                                 </div>
@@ -59,7 +59,7 @@ export default function ShopClient() {
                             {/*  Silk */}
                             <section className="text-gray-600 body-font">
                                 <div className="container px-5 py-24 mx-auto">
-                                    <div id="product-container-silk" className="flex flex-wrap -m-4">
+                                    <div id="product-container-silk" className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
 
                                     </div>
                                 </div>
@@ -73,7 +73,7 @@ export default function ShopClient() {
                             {/* Art Silk */}
                             <section className="text-gray-600 body-font">
                                 <div className="container px-5 py-24 mx-auto">
-                                    <div id="product-container-art_silk" className="flex flex-wrap -m-4">
+                                    <div id="product-container-art_silk" className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
 
                                     </div>
                                 </div>
@@ -87,7 +87,7 @@ export default function ShopClient() {
                             {/* Desiginer Sarees */}
                             <section className="text-gray-600 body-font">
                                 <div className="container px-5 py-24 mx-auto">
-                                    <div id="product-container-desiginer" className="flex flex-wrap -m-4">
+                                    <div id="product-container-desiginer" className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
 
                                     </div>
                                 </div>
@@ -101,7 +101,7 @@ export default function ShopClient() {
                             {/* khun sarees (खण) */}
                             <section className="text-gray-600 body-font">
                                 <div className="container px-5 py-24 mx-auto">
-                                    <div id="product-container-khun" className="flex flex-wrap -m-4">
+                                    <div id="product-container-khun" className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
 
                                     </div>
                                 </div>
@@ -115,7 +115,7 @@ export default function ShopClient() {
                             {/* Net Sarees */}
                             <section className="text-gray-600 body-font">
                                 <div className="container px-5 py-24 mx-auto">
-                                    <div id="product-container-net" className="flex flex-wrap -m-4">
+                                    <div id="product-container-net" className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
 
                                     </div>
                                 </div>
@@ -129,7 +129,7 @@ export default function ShopClient() {
                             {/* Dola Silk */}
                             <section className="text-gray-600 body-font">
                                 <div className="container px-5 py-24 mx-auto">
-                                    <div id="product-container-dola_silk" className="flex flex-wrap -m-4">
+                                    <div id="product-container-dola_silk" className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
 
                                     </div>
                                 </div>
@@ -142,7 +142,7 @@ export default function ShopClient() {
                             {/* Wedding Sarees */}
                             <section className="text-gray-600 body-font">
                                 <div className="container px-5 py-24 mx-auto">
-                                    <div id="product-container-wedding" className="flex flex-wrap -m-4">
+                                    <div id="product-container-wedding" className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
 
                                     </div>
                                 </div>
