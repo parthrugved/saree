@@ -1,22 +1,2 @@
-main ul {
-    font-size: 1.5rem;
-    padding: 20px;
-    font-weight: bold;
-}
 
-main section ul li summary {
-    justify-content: center;
-    align-items: center;
-    /* color: rgba(19, 23, 138, 0.573); */
-    display: flexbox;
-    color: gray;
-    margin-bottom: 15px;
-
-}
-
-main section ul li summary:hover {
-    font-size: 27px;
-    cursor: pointer;
-    color: rgba(5, 8, 90, 0.729);
-}
 

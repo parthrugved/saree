@@ -165,21 +165,21 @@ if (!container) {
         </h2>
 
         <div class="flex items-center gap-2 mt-auto">
-          <span class="text-lg font-bold text-red-700">
+          <span class="text-base font-bold text-red-700">
             ${item.price}
           </span>
-          <span class="text-gray-400 line-through text-sm">
-            ₹ 4,791
+          <span class="text-gray-400 line-through text-base">
+            ₹4,791
           </span>
-          <span class="bg-red-100 text-red-700 font-semibold px-2 py-0.5 rounded text-xs">
+          <span class="bg-red-100 text-red-700 font-semibold px-0.5 py-0.5 rounded text-xs">
             79% OFF
           </span>
         </div>
 
             ${isOut
-                    ? `<div class="bg-gray-400 text-white px-4 py-2 rounded-lg block text-center mt-3 cursor-not-allowed select-none">Buy Now</div>`
+                    ? `<div class="bg-gray-400 text-white px-4 py-2 rounded-lg block text-center mt-3 cursor-not-allowed select-none text-xs">Buy Now</div>`
                     : `<a href="${whatsappURL}" target="_blank"
-   class="block text-center mt-3 text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 px-4 py-2 rounded-lg">
+   class="block text-center mt-3 text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 px-4 py-2 rounded-lg text-xs">
    Buy Now
 </a>
 `
