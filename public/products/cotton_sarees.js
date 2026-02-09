@@ -311,7 +311,8 @@ const cotton_sarees = [
     name: "Pure Comfort",
     price: "₹1499",
     code: "CO39",
-    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions.",
+    stock: false
   },
   {
     type: "cotton sarees",
