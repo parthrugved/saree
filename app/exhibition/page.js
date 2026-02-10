@@ -11,21 +11,11 @@ const page = () => {
   const exhibitions = [
     {
       title: "Nashik Exhibition",
-      imageUrl: "https://scontent.cdninstagram.com/v/t51.82787-15/610131673_17917355244250388_128821777666694936_n.webp?_nc_cat=111&ig_cache_key=MzgwMTc1NDk1MzMxNzE5MTAwMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTQ0MC5zZHIuQzMifQ%3D%3D&_nc_ohc=M0eTd8FSaEkQ7kNvwF6tBaZ&_nc_oc=AdnE2qnsVwyD3rYu3LC1DRAjcXmrXrUcmGlpOcjttHNtMoGpaYXZJbnPTNtdfxwM0G4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=HHTG2qA7cRvrqSo2MmfaRQ&oh=00_AfrXoGkuBNlj1VoKZVkx0rKJRlSdTYCdB7A60J3kgc3KKw&oe=697C23FA",
+      imageUrl: "/shivini naki exhibition.webp",
       description:
         "Star power at our stall! 🌟 It was a pleasure hosting the lovely Shivani Naik at the Nashik Exhibition today. She loved our collection, and her energy was amazing! Thanks for stopping by, Shivani!",
     },
-    {
-      title: "Nashik Exhibition",
-      imageUrl: "https://scontent.cdninstagram.com/v/t51.82787-15/610131673_17917355244250388_128821777666694936_n.webp?_nc_cat=111&ig_cache_key=MzgwMTc1NDk1MzMxNzE5MTAwMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTQ0MC5zZHIuQzMifQ%3D%3D&_nc_ohc=M0eTd8FSaEkQ7kNvwF6tBaZ&_nc_oc=AdnE2qnsVwyD3rYu3LC1DRAjcXmrXrUcmGlpOcjttHNtMoGpaYXZJbnPTNtdfxwM0G4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=HHTG2qA7cRvrqSo2MmfaRQ&oh=00_AfrXoGkuBNlj1VoKZVkx0rKJRlSdTYCdB7A60J3kgc3KKw&oe=697C23FA",
-      description:
-        "Star power at our stall! 🌟 It was a pleasure hosting the lovely Shivani Naik at the Nashik Exhibition today. She loved our collection, and her energy was amazing! Thanks for stopping by, Shivani!",
-    },{
-      title: "Nashik Exhibition",
-      imageUrl: "https://scontent.cdninstagram.com/v/t51.82787-15/610131673_17917355244250388_128821777666694936_n.webp?_nc_cat=111&ig_cache_key=MzgwMTc1NDk1MzMxNzE5MTAwMQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTQ0MC5zZHIuQzMifQ%3D%3D&_nc_ohc=M0eTd8FSaEkQ7kNvwF6tBaZ&_nc_oc=AdnE2qnsVwyD3rYu3LC1DRAjcXmrXrUcmGlpOcjttHNtMoGpaYXZJbnPTNtdfxwM0G4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.cdninstagram.com&_nc_gid=HHTG2qA7cRvrqSo2MmfaRQ&oh=00_AfrXoGkuBNlj1VoKZVkx0rKJRlSdTYCdB7A60J3kgc3KKw&oe=697C23FA",
-      description:
-        "Star power at our stall! 🌟 It was a pleasure hosting the lovely Shivani Naik at the Nashik Exhibition today. She loved our collection, and her energy was amazing! Thanks for stopping by, Shivani!",
-    },
+    
   ];
 
   return (
