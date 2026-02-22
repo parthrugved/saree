@@ -5,7 +5,6 @@ import Link from "next/link";
 import Image from "next/image";
 import "./navbar.css";
 import {
-  ClerkProvider,
   SignInButton,
   SignUpButton,
   SignedIn,
@@ -42,7 +41,7 @@ export default function Navbar() {
           <Link href="/contact" className="mr-5 hover:text-gray-900">Contact Us</Link>
           <Link href="/feedback" className="mr-5 hover:text-gray-900">Customer Feedback</Link>
           <Link href="/exhibition" className="mr-5 hover:text-gray-900">Exhibition</Link>
-          <div className="auth ml-475 fixed flex gap-4">
+          <div className="auth ml-400 fixed flex gap-4">
             <div className="flex items-center justify-center">
               <SignedIn>
 
