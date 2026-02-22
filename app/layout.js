@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "sareeKraft.in",
+  title: "SareeKraft.in",
   description: "Premium ready-to-wear sarees crafted with elegance.",
 };
 
