@@ -11,12 +11,10 @@ import {
   SignedOut,
   UserButton,
 } from '@clerk/nextjs';
-import { toast } from 'react-hot-toast';
-
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
-  const { user, isLoaded, isSignedIn } = useUser();
+  const { user } = useUser();
 
 
   return (
@@ -25,10 +23,11 @@ export default function Navbar() {
 
         {/* LOGO */}
         <Link href="/" className="flex title-font font-medium items-center text-gray-900">
-          <img
+          <Image
             src="/logo.png"
             alt="logo"
             width={70}
+            height={70}
             style={{ cursor: "pointer", borderRadius: '10px' }}
           />
         </Link>

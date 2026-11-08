@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Feedback = () => {
   const testimonials = [
@@ -83,9 +84,11 @@ const Feedback = () => {
                   </p>
 
                   <div className="inline-flex items-center">
-                    <img
+                    <Image
                       alt="testimonial"
                       src={item.img}
+                      width={48}
+                      height={48}
                       className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                     />
                     <span className="flex-grow flex flex-col pl-4">

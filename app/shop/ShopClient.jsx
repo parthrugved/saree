@@ -1,6 +1,4 @@
 "use client";
-import data from "@/src/data/admin-products.json";
-import Link from "next/link";
 import Script from "next/script";
 import "./shop.css";
 

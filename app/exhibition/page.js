@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 export const metadata = {
   title: "Exhibition | SareeKraft",
@@ -34,7 +35,7 @@ const page = () => {
         <div className="flex flex-wrap ">
           {exhibitions.map((exhibition, index) => (
             <div key={index} className="card m-10 items-center bg-amber-50 w-96 flex flex-col h-[70vh] p-10 rounded-2xl shadow-lg">
-              <div className="img"><a href={exhibition.imageUrl} target='_blank'><img className='rounded-2xl cursor-pointer' width={250} height={250} src={exhibition.imageUrl} alt="" /></a></div>
+              <div className="img"><a href={exhibition.imageUrl} target='_blank' rel="noopener noreferrer"><Image className='rounded-2xl cursor-pointer' width={250} height={250} src={exhibition.imageUrl} alt={exhibition.title} /></a></div>
 
               <div className="description items-center ">
                 <div className="title font-bold flex items-center text-center justify-center flex-col mt-3 text-lg">{exhibition.title}</div>

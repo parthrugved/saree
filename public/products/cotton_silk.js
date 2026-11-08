@@ -47,7 +47,6 @@ function renderCottonSilk() {
       const whatsappURL = `https://wa.me/918080674236?text=${encodeURIComponent(message)}`;
 
       const isOut = item.stock === false;
-      const imgSrc = encodeURI(`webp_images/${item.type}/${item.img}`);
 
       const card = `
 

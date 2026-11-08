@@ -1,6 +1,7 @@
 import React from "react";
 import "./footer.css";
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -14,11 +15,15 @@ const Footer = () => {
 
       <div className="container mx-auto px-5 text-center relative z-10">
         <Link href="/">
-        <img style={{ cursor: "pointer", borderRadius: '10px' }}
-          className="logo opacity-90 hover:opacity-100 transition duration-300 mx-auto"
-          src="/logo-dark.png"
-          alt="SareeKraft Logo"
-        /></Link>
+          <Image
+            style={{ cursor: "pointer", borderRadius: '10px' }}
+            className="logo opacity-90 hover:opacity-100 transition duration-300 mx-auto"
+            src="/logo-dark.png"
+            alt="SareeKraft Logo"
+            width={100}
+            height={40}
+          />
+        </Link>
 
         <br />
 
