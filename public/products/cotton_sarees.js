@@ -255,7 +255,8 @@ const cotton_sarees = [
     name: "Pure Comfort",
     price: "₹1499",
     code: "CO32 ",
-    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions.",
+    stock: false
   },
   {
     type: "cotton sarees",
@@ -295,7 +296,8 @@ const cotton_sarees = [
     name: "Pure Comfort",
     price: "₹1499",
     code: "CO37",
-    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions.",
+    stock: false
   },
   {
     type: "cotton sarees",
@@ -385,7 +387,8 @@ const cotton_sarees = [
     name: "Pure Comfort",
     price: "₹1499",
     code: "CO48",
-    description: "Simple yet elegant cotton saree that suits both everyday use and small functions."
+    description: "Simple yet elegant cotton saree that suits both everyday use and small functions.",
+    stock:false
   },
   {
     type: "cotton sarees",

@@ -27,14 +27,16 @@ const net_sarees = [
     name: "Sheer Glamour",
     price: "₹1499",
     code: "NET4",
-    description: "Soft net saree with a graceful fall, perfect for a subtle yet stylish party look."
+    description: "Soft net saree with a graceful fall, perfect for a subtle yet stylish party look.",
+    stock: false
   }, {
     type: "net sarees",
     img: "net (5).webp",
     name: "Sheer Glamour",
     price: "₹1499",
     code: "NET5",
-    description: "Trendy net saree that pairs beautifully with a designer blouse for functions."
+    description: "Trendy net saree that pairs beautifully with a designer blouse for functions.",
+    stock: false
   }, {
     type: "net sarees",
     img: "net (6).webp",
